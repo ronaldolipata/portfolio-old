@@ -300,12 +300,6 @@ p {
   z-index: -1;
 }
 
-/* ABOUT */
-
-#about .section__image-container {
-  display: flex;
-}
-
 /* PROJECTS */
 
 #project-1 {
@@ -404,7 +398,7 @@ p {
     width: min(75%, 85.375rem);
   }
 
-  #contact {
+  #about, #contact {
     text-align: center;
   }
 }
@@ -479,8 +473,11 @@ p {
 
   /* ABOUT */
 
-  #about .section__container {
-    flex-direction: row-reverse;
+  #contact .section__wrapper-horizontal {
+    flex-direction: column;
+    justify-content: center;
+    max-width: 40rem;
+    margin-inline: auto;
   }
 
   /* PROJECTS */
