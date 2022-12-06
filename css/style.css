@@ -473,7 +473,7 @@ p {
 
   /* ABOUT */
 
-  #contact .section__wrapper-horizontal {
+  #about .section__wrapper-horizontal {
     flex-direction: column;
     justify-content: center;
     max-width: 40rem;
