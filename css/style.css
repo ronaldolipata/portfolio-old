@@ -87,9 +87,6 @@ section {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  height: calc(100vh - 60px);
-  display: grid;
-  place-items: center;
 }
 
 .section__container > div {
@@ -417,6 +414,12 @@ p {
 @media (min-width: 85.375em) {
   html {
     scroll-padding-top: 85px;
+  }
+
+  section {
+    height: calc(100vh - 60px);
+    display: grid;
+    place-items: center;
   }
 
   .section__container,
