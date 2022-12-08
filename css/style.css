@@ -420,6 +420,8 @@ p {
     height: calc(100vh - 60px);
     display: grid;
     place-items: center;
+    background-image: url('../img/code-background.svg');
+    padding: 0;
   }
 
   .section__container,
@@ -448,11 +450,6 @@ p {
     align-items: center;
     gap: 3rem;
     margin-left: 7rem;
-  }
-
-  section {
-    background-image: url('../img/code-background.svg');
-    padding: 0;
   }
 
   .section__container > div {
@@ -532,16 +529,8 @@ p {
 
 /*  1600px */
 @media (min-width: 100em) {
-  section {
-    padding: 1.5rem 0 5rem 0;
-  }
-
-  .section__wrapper-horizontal {
-    height: auto;
-  }
-
-  .section__container > div {
-    margin-top: 4rem;
+  #home {
+    margin-top: -5rem;
   }
 }
 
