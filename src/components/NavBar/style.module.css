@@ -1,0 +1,147 @@
+body.active {
+  color: var(--accent-sec-clr);
+  background: rgba(0, 0, 0, 5);
+  overflow: hidden;
+}
+
+.container {
+  background-color: var(--bg-clr);
+  box-shadow: var(--shadowLight);
+  height: 3.75rem;
+  position: sticky;
+  top: 0;
+  display: flex;
+  padding: 0 1.5rem;
+  z-index: 6;
+}
+
+.subContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  display: grid;
+  place-content: center;
+}
+
+.menu {
+  display: none;
+  text-transform: capitalize;
+}
+
+/* Show navigation when toggle-menu is clicked */
+.menu.active {
+  background-color: rgba(37, 40, 42, 0.9);
+  backdrop-filter: blur(0.3rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  inset: 0 0 0 35%;
+  height: 100vh;
+  padding-top: 4rem;
+  gap: 2rem;
+  transition: 0.3 ease;
+}
+
+.navLink:hover {
+  color: var(--pri-clr);
+}
+
+.ctaButton {
+  border: 2px solid var(--pri-clr);
+  color: var(--pri-clr);
+  margin: 2rem 0;
+  padding: 0.1rem 2rem;
+  border-radius: 3px;
+  text-decoration: none;
+  vertical-align: middle;
+  line-height: normal;
+  display: inline-block;
+}
+
+.ctaButton:hover {
+  filter: var(--filter-pri-clr);
+  background-color: var(--sec-bg-clr);
+}
+
+.bar {
+  background-color: var(--accent-clr);
+  position: relative;
+  width: 30px;
+  height: 4px;
+  border-radius: 3px;
+  transform: 0.7 ease;
+}
+
+.bar1 {
+  top: -6px;
+}
+
+.bar3 {
+  top: 6px;
+}
+
+.toggleMenu {
+  cursor: pointer;
+}
+
+.toggleMenu.active .bar2 {
+  opacity: 0;
+}
+
+.toggleMenu.active .bar1 {
+  transform: translateY(10px) rotate(45deg);
+}
+
+.toggleMenu.active .bar3 {
+  transform: translateY(-10px) rotate(-45deg);
+}
+
+.mobile {
+  display: block;
+}
+
+.desktop {
+  display: none;
+}
+
+/* 768px */
+@media (min-width: 48em) {
+  .subContainer {
+    width: min(75%, 85.375rem);
+    margin-inline: auto;
+  }
+}
+
+/* 1366px */
+@media (min-width: 85.375em) {
+  .container {
+    height: 5.3125rem;
+  }
+
+  .subContainer {
+    width: min(90%, 85.375rem);
+  }
+
+  .toggleMenu {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+}
