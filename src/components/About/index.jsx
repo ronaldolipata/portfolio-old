@@ -1,13 +1,8 @@
 import style from '@/components/About/style.module.css';
-import backgroundImage from '@/assets/img/code-background.svg';
 
 const About = () => {
   return (
-    <section
-      id='about'
-      className={style.container}
-      style={{ backgroundImage: backgroundImage }}
-    >
+    <section id='about' className={style.container}>
       <h3 className={style.sectionTitle}>About me</h3>
       <div>
         <p className={style.text}>
