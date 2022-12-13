@@ -28,7 +28,6 @@
 .card {
   background-color: var(--sec-bg-clr);
   box-shadow: var(--box-shadow);
-  width: 24rem;
   margin-inline: auto;
   display: flex;
   flex-direction: column;
