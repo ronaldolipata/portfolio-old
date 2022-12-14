@@ -39,7 +39,7 @@ const PersonalProjects = () => {
             </div>
           </div>
           <a
-            href='https://ronaldolipata.github.io/memoirs-frontend/'
+            href='https://ronaldolipata.github.io/Portfolio/'
             target='_blank'
             className={style.ctaButton}
           >
