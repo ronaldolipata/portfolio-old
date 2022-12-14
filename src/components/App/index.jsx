@@ -27,21 +27,6 @@ function App() {
     window.addEventListener('load', () => {
       removeLocationHash();
     });
-
-    return () => {
-      window.removeEventListener('popstate', () => {
-        removeLocationHash();
-      });
-
-      window.removeEventListener('hashchange', (event) => {
-        event.preventDefault();
-        removeLocationHash();
-      });
-
-      window.removeEventListener('load', () => {
-        removeLocationHash();
-      });
-    };
   }, []);
 
   return (
