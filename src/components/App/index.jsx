@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
     // Remove location hash from the URL
     const removeLocationHash = () => {
-      var noHashURL = window.location.href.replace(/#.*$/, '');
+      const noHashURL = window.location.href.replace(/#.*$/, '');
       window.history.replaceState('', document.title, noHashURL);
     };
 
