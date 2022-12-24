@@ -62,6 +62,7 @@
 .ctaButton {
   border: 2px solid var(--pri-clr);
   color: var(--pri-clr);
+  font-size: var(--fs-300);
   margin: 2rem 0;
   padding: 0.1rem 2rem;
   border-radius: 3px;

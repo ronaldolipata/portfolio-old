@@ -4,6 +4,7 @@ import Home from '@/components/Home';
 import About from '@/components/About';
 import FreelanceProjects from '@/components/FreelanceProjects';
 import PersonalProjects from '@/components/PersonalProjects';
+import Certifications from '@/components/Certifications';
 import Contact from '@/components/Contact';
 import style from '@/components/App/style.module.css';
 
@@ -38,6 +39,7 @@ function App() {
           <About />
           <FreelanceProjects />
           <PersonalProjects />
+          <Certifications />
           <Contact />
         </main>
       </div>

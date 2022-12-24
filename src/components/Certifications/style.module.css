@@ -36,11 +36,11 @@
   border-radius: 1rem;
 }
 
-.projectImage {
+.cardImage {
   border-radius: 1rem 1rem 0 0;
 }
 
-.projectTitle {
+.cardTitle {
   padding-bottom: 1.5rem;
 }
 
@@ -48,43 +48,20 @@
   color: var(--pri-clr);
 }
 
-.projectDescription {
+.cardDescription {
   padding: 0.8rem 2.3rem 1.5rem 2.3rem;
   text-align: center;
 }
 
-.projectDescription p {
+.cardDescription p {
   font-size: var(--fs-300);
   margin-bottom: 2rem;
 }
 
-.projectSeparator {
-  background-color: var(--pri-clr);
-  border: none;
-  height: 2px;
-  opacity: 0.1;
-  margin: 1.2rem 0;
-}
-
-.techUsed {
-  color: var(--pri-clr);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  opacity: 0.5;
-}
-
-.techSeparator {
-  font-size: var(--fs-200);
-  color: var(--accent-clr);
-  margin: 0 0.5rem;
-}
-
 .ctaButton {
   border: 2px solid var(--pri-clr);
-  color: var(--pri-clr);
   font-size: var(--fs-300);
+  color: var(--pri-clr);
   margin-bottom: 2rem;
   padding: 0.1rem 2rem;
   border-radius: 3px;
@@ -110,7 +87,7 @@
     width: 35rem;
   }
 
-  .projectDescription {
+  .cardDescription {
     padding: 0.8rem 4.3rem 1.5rem 4.3rem;
   }
 }
@@ -129,7 +106,7 @@
     width: 22.5rem;
   }
 
-  .projectDescription {
+  .cardDescription {
     padding: 0.8rem 2.3rem 1.5rem 2.3rem;
   }
 }
