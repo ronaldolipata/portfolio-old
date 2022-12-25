@@ -45,7 +45,7 @@ const NavBar = () => {
               </li>
             ))}
             <a
-              href='https://drive.google.com/file/d/1i7r7lKf0YWqzSbio0UwgsTShQX1Vj7CC/view?usp=share_link'
+              href='https://drive.google.com/file/d/1zN7vpDvcsuMO8EadKvthIiojV8Y9i8mx/view?usp=share_link'
               className={`${style.ctaButton} ${style.mobile}`}
               onClick={removeStyle}
               target='_blank'
@@ -56,7 +56,7 @@ const NavBar = () => {
           </ul>
         </nav>
         <a
-          href='https://drive.google.com/file/d/1i7r7lKf0YWqzSbio0UwgsTShQX1Vj7CC/view?usp=share_link'
+          href='https://drive.google.com/file/d/1zN7vpDvcsuMO8EadKvthIiojV8Y9i8mx/view?usp=share_link'
           className={`${style.ctaButton} ${style.desktop}`}
           target='_blank'
           download
