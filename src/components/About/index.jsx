@@ -17,8 +17,8 @@ const About = () => {
         <p className={style.text}>
           Here are my skills and technologies that I use: <br />
           <span className={style.primaryColor}>
-            HTML, CSS, JavaScript, React JS, Node JS, Express JS, MongoDB,
-            RESTful API, Git, Figma
+            HTML, CSS, JS, Git, React, Chakra UI, Node, Express, REST API,
+            MongoDB, Jest, React Testing Library, Figma
           </span>
         </p>
       </div>
