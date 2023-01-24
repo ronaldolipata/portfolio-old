@@ -27,6 +27,11 @@ body.active {
   place-content: center;
 }
 
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
 .menu {
   display: none;
   text-transform: capitalize;

@@ -37,6 +37,8 @@
 }
 
 .projectImage {
+  width: 100%;
+  height: auto;
   border-radius: 1rem 1rem 0 0;
 }
 
@@ -108,6 +110,10 @@
 
   .card {
     width: 35rem;
+  }
+
+  .projectImage {
+    border-radius: 1rem 1rem 0 0;
   }
 
   .projectDescription {
