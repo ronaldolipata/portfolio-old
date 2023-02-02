@@ -17,9 +17,10 @@ const About = () => {
         <p className={style.text}>
           Here are my skills and technologies that I use: <br />
           <span className={style.primaryColor}>
-            HTML, CSS, Tailwind, Bootstrap, JS, Git, Vite, React, Chakra UI,
-            TypeScript, Node, Express, REST API, MongoDB, Mongoose, Jest, RTL,
-            Figma
+            HTML, CSS, Tailwind, Bootstrap, SASS, JavaScript, Git, Vite,
+            Webpack, React, Redux, Chakra UI, TypeScript, Node, Express, REST
+            API, MongoDB, Figma UI/UX, TDD, React Testing, Jest, RTL, Jira,
+            Trello
           </span>
         </p>
       </div>
