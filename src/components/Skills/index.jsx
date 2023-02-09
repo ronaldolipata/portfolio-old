@@ -104,7 +104,6 @@ const Skills = () => {
               MongoDB
               <SiMongodb />
             </span>
-            <span>Mongoose</span>
           </div>
         </div>
         <div className={style.skillsSubContainerFlexRow}>
@@ -166,7 +165,6 @@ const Skills = () => {
                 RTL
                 <SiTestinglibrary />
               </span>
-              <span>TDD</span>
             </div>
           </div>
         </div>
