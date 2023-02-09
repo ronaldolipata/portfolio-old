@@ -8,7 +8,14 @@ const NavBar = () => {
   const refToggleMenu = useRef('hidden');
   const refNavLink = useRef('hidden');
 
-  const navLinks = ['home', 'about', 'projects', 'certifications', 'contact'];
+  const navLinks = [
+    'home',
+    'about',
+    'skills',
+    'projects',
+    'certifications',
+    'contact',
+  ];
 
   // Show menu if hamburger menu is clicked
   const toggleOnClick = () => {
