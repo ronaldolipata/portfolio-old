@@ -3,7 +3,7 @@ import style from '@/components/About/style.module.css';
 const About = () => {
   return (
     <section id='about' className={style.container}>
-      <h3 className={style.sectionTitle}>About me</h3>
+      <h2 className={style.sectionTitle}>About me</h2>
       <div className={style.subContainer}>
         <p className={style.text}>
           I am <span className={style.primaryColor}>Ronaldo Lipata</span>,

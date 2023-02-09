@@ -30,7 +30,7 @@ import {
 const Skills = () => {
   return (
     <section id='skills' className={style.container}>
-      <h3 className={style.sectionTitle}>Skills & Technologies</h3>
+      <h2 className={style.sectionTitle}>Skills & Technologies</h2>
       <div className={style.skillsMainContainer}>
         <div className={style.skillsSubContainer}>
           <h3 className={style.primaryColor}>Front-End Technologies</h3>

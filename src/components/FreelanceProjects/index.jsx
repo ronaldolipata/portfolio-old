@@ -6,7 +6,7 @@ const FreelanceProjects = () => {
   return (
     <>
       <section id='projects' className={style.container}>
-        <h3 className={style.sectionTitle}>Freelance Projects</h3>
+        <h2 className={style.sectionTitle}>Freelance Projects</h2>
         <div className={style.subContainer}>
           <div>
             <h4 className={`${style.primaryColor} ${style.projectTitle}`}>

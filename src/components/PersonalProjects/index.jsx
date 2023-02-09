@@ -12,7 +12,7 @@ import drumKit from '@/assets/img/personal-project-drum-kit.svg';
 const PersonalProjects = () => {
   return (
     <div className={style.container}>
-      <h3 className={style.sectionTitle}>Personal Projects</h3>
+      <h2 className={style.sectionTitle}>Personal Projects</h2>
       <div className={style.cardContainer}>
         <div className={style.card}>
           <div className={style.subContainer}>

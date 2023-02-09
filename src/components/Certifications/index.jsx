@@ -6,7 +6,7 @@ import conqueringResponsiveLayoutsCertificate from '@/assets/img/ronaldolipata-c
 const Certifications = () => {
   return (
     <section id='certifications' className={style.container}>
-      <h3 className={style.sectionTitle}>Certifications</h3>
+      <h2 className={style.sectionTitle}>Certifications</h2>
       <div className={style.cardContainer}>
         <div className={style.card}>
           <div className={style.subContainer}>
