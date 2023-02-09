@@ -62,6 +62,10 @@
   align-items: center;
 }
 
+.iconFlex:hover {
+  color: var(--pri-clr);
+}
+
 /* 768px */
 @media (min-width: 48em) {
   .container {
