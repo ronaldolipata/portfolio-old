@@ -1,6 +1,4 @@
 import style from '@/components/FreelanceProjects/style.module.css';
-import koolweldImage from '@/assets/img/project-koolweld-hover.svg';
-import j4sc2Image from '@/assets/img/project-j4sc2-hover.svg';
 
 const FreelanceProjects = () => {
   return (
@@ -41,7 +39,7 @@ const FreelanceProjects = () => {
             </a>
           </div>
           <img
-            src={koolweldImage}
+            src='https://drive.google.com/uc?id=1vbGA2Fj-AK4Nu9sSvtQrh8OqC_48-1cI'
             alt='Koolweld Project'
             className={style.projectImage}
           />
@@ -82,7 +80,11 @@ const FreelanceProjects = () => {
               View Demo
             </a>
           </div>
-          <img src={j4sc2Image} alt='J4SC2' className={style.projectImage} />
+          <img
+            src='https://drive.google.com/uc?id=15MrOfA0D97rHD4GeOuxeabaYPX2hSflD'
+            alt='J4SC2'
+            className={style.projectImage}
+          />
         </div>
       </section>
     </>

@@ -1,6 +1,5 @@
 import { useRef } from 'react';
 import style from '@/components/NavBar/style.module.css';
-import logo from '@/assets/img/dark-theme/dark-theme-logo.svg';
 
 const NavBar = () => {
   const refHeader = useRef('hidden');
@@ -35,7 +34,10 @@ const NavBar = () => {
     <header className={style.container} ref={refHeader}>
       <div className={style.subContainer}>
         <a href='#home' className={style.logo}>
-          <img src={logo} alt='Logo' />
+          <img
+            src='https://drive.google.com/uc?id=1yP_odSGis-dLNHol7iEdwpuwbsTfy1UC'
+            alt='Logo'
+          />
         </a>
         <nav>
           <ul className={`${style.menu}`} ref={refMenu}>

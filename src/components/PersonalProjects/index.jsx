@@ -1,13 +1,4 @@
 import style from '@/components/PersonalProjects/style.module.css';
-import memoirs from '@/assets/img/personal-project-memoirs.svg';
-import portfolio from '@/assets/img/personal-project-portfolio.svg';
-import paytaka from '@/assets/img/personal-project-paytaka.svg';
-import cardMatchingGame from '@/assets/img/personal-project-card-matching-game.svg';
-import weatherApp from '@/assets/img/personal-project-weather-app.svg';
-import pokemonApp from '@/assets/img/personal-project-pokemon-app.svg';
-import simonGame from '@/assets/img/personal-project-simon-game.svg';
-import diceGame from '@/assets/img/personal-project-dice-game.svg';
-import drumKit from '@/assets/img/personal-project-drum-kit.svg';
 
 const PersonalProjects = () => {
   return (
@@ -18,7 +9,7 @@ const PersonalProjects = () => {
           <div className={style.subContainer}>
             <img
               className={style.projectImage}
-              src={portfolio}
+              src='https://drive.google.com/uc?id=1GJV8qk94Pfr2aT0S84e_HRLXyzMHcFAC'
               alt='personal project image'
             />
             <div className={style.projectDescription}>
@@ -50,7 +41,7 @@ const PersonalProjects = () => {
           <div className={style.subContainer}>
             <img
               className={style.projectImage}
-              src={memoirs}
+              src='https://drive.google.com/uc?id=1wpY3aAHp_E45ntlIA6uvh6TIwt0UXDK1'
               alt='personal project image'
             />
             <div className={style.projectDescription}>
@@ -91,7 +82,7 @@ const PersonalProjects = () => {
           <div className={style.subContainer}>
             <img
               className={style.projectImage}
-              src={paytaka}
+              src='https://drive.google.com/uc?id=1jIRlV4D8nrAi2FCMKYS6MSBeEyyaxsQ1'
               alt='personal project image'
             />
             <div className={style.projectDescription}>
@@ -126,7 +117,7 @@ const PersonalProjects = () => {
           <div className={style.subContainer}>
             <img
               className={style.projectImage}
-              src={cardMatchingGame}
+              src='https://drive.google.com/uc?id=1DKr56-GEJFgCNwEh2B2i3k36o5VkKexC'
               alt='personal project image'
             />
             <div className={style.projectDescription}>
@@ -160,7 +151,7 @@ const PersonalProjects = () => {
           <div className={style.subContainer}>
             <img
               className={style.projectImage}
-              src={weatherApp}
+              src='https://drive.google.com/uc?id=1jhn5UWYKpOlp32CshwPA42e_EHO57SID'
               alt='personal project image'
             />
             <div className={style.projectDescription}>
@@ -197,7 +188,7 @@ const PersonalProjects = () => {
           <div className={style.subContainer}>
             <img
               className={style.projectImage}
-              src={pokemonApp}
+              src='https://drive.google.com/uc?id=1UA6CycDSqwTPudZvmrerMHBsDRbASxnG'
               alt='personal project image'
             />
             <div className={style.projectDescription}>
@@ -233,7 +224,7 @@ const PersonalProjects = () => {
           <div className={style.subContainer}>
             <img
               className={style.projectImage}
-              src={simonGame}
+              src='https://drive.google.com/uc?id=146sEwHTGmcJQNtkVTM6a96_kGxFkaBNr'
               alt='personal project image'
             />
             <div className={style.projectDescription}>
@@ -268,7 +259,7 @@ const PersonalProjects = () => {
           <div className={style.subContainer}>
             <img
               className={style.projectImage}
-              src={diceGame}
+              src='https://drive.google.com/uc?id=1KyEnTeH8AvgJT-f0aGvClt3hhT1UG5Vq'
               alt='personal project image'
             />
             <div className={style.projectDescription}>
@@ -301,7 +292,7 @@ const PersonalProjects = () => {
           <div className={style.subContainer}>
             <img
               className={style.projectImage}
-              src={drumKit}
+              src='https://drive.google.com/uc?id=1fNXaGKGwOg2chG7gycRA2UYO9potjJUn'
               alt='personal project image'
             />
             <div className={style.projectDescription}>

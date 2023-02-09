@@ -1,6 +1,6 @@
 .container {
   padding: 0 1.5rem;
-  background-image: url('@/assets/img/code-background-mobile.svg');
+  background-image: url('https://drive.google.com/uc?id=1Lco-1n3MbfGLLE2_cRmGWplha8jTqnp0');
   background-position: center;
   background-size: contain;
 }
@@ -8,6 +8,6 @@
 /* 768px */
 @media (min-width: 48em) {
   .container {
-    background-image: url('@/assets/img/code-background.svg');
+    background-image: url('https://drive.google.com/uc?id=1Fcvcl4iCBV99K3Z3GuPUrYayz-lmSkB1');
   }
 }

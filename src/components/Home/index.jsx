@@ -1,5 +1,4 @@
 import style from '@/components/Home/style.module.css';
-import heroImage from '@/assets/img/Ron.svg';
 
 const Home = () => {
   return (
@@ -21,7 +20,11 @@ const Home = () => {
           Get in touch
         </a>
       </div>
-      <img className={style.heroImage} src={heroImage} alt='Ronaldo Lipata' />
+      <img
+        className={style.heroImage}
+        src='https://drive.google.com/uc?id=1W20LUP5csqI1DQpyCIMiSjBM1FrVSnd7'
+        alt='Ronaldo Lipata'
+      />
     </section>
   );
 };

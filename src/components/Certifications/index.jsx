@@ -1,7 +1,4 @@
 import style from '@/components/Certifications/style.module.css';
-import upliftCertificate from '@/assets/img/ronaldo-lipata-uplift-certificate.svg';
-import figmaForBeginnersCertificate from '@/assets/img/ronaldo-lipata-figma-for-beginners-pwa-pilipinas-certificate.svg';
-import conqueringResponsiveLayoutsCertificate from '@/assets/img/ronaldolipata-conquering-responsive-layouts-certificate.svg';
 
 const Certifications = () => {
   return (
@@ -12,7 +9,7 @@ const Certifications = () => {
           <div className={style.subContainer}>
             <img
               className={style.cardImage}
-              src={upliftCertificate}
+              src='https://drive.google.com/uc?id=1c2ko6WPWqCJgtqdlY8O75vp3LEVjpw1C'
               alt='certificate image'
             />
             <div className={style.cardDescription}>
@@ -36,7 +33,7 @@ const Certifications = () => {
           <div className={style.subContainer}>
             <img
               className={style.cardImage}
-              src={figmaForBeginnersCertificate}
+              src='https://drive.google.com/uc?id=1AkfLNULGYTs3kM_XnIPZRjiz09r73_CH'
               alt='certificate image'
             />
             <div className={style.cardDescription}>
@@ -60,7 +57,7 @@ const Certifications = () => {
           <div className={style.subContainer}>
             <img
               className={style.cardImage}
-              src={conqueringResponsiveLayoutsCertificate}
+              src='https://drive.google.com/uc?id=19RFvCmUCiupFc-hey4CbeMcnhYlYYSJK'
               alt='certificate image'
             />
             <div className={style.cardDescription}>
