@@ -53,7 +53,7 @@
 .skillsContainer {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem 2rem;
+  gap: 2rem;
 }
 
 .iconFlex {
@@ -71,7 +71,7 @@
 
   .skillsSubContainerFlexRow {
     flex-direction: row;
-    gap: 2rem;
+    gap: 4rem;
   }
 }
 
@@ -82,11 +82,6 @@
     height: calc(100vh - 5.3125rem);
     display: grid;
     place-content: center;
-  }
-
-  .aboutTextContainer {
-    max-width: 35rem;
-    margin-inline: auto;
   }
 
   .skillsMainContainer {
