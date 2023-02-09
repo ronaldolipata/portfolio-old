@@ -31,5 +31,8 @@
   .container {
     max-width: 35rem;
     margin-inline: auto;
+    height: calc(100vh - 5.3125rem);
+    display: grid;
+    place-content: center;
   }
 }

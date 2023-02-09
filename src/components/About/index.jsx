@@ -11,8 +11,12 @@ const About = () => {
           I am also a Blockchain enthusiast.
         </p>
         <p className={style.text}>
-          Having a passion in Web Development makes me feel elated every time I
-          completed projects.
+          Being passionate in Web Development makes me feel elated every time I
+          completed projects
+        </p>
+        <p className={style.text}>
+          Having a growth mindset helps me develop my skills through hard work
+          and perseverance
         </p>
       </div>
     </section>
