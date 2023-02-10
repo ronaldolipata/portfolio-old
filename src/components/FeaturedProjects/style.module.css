@@ -1,0 +1,184 @@
+.container {
+  padding: 5rem 0;
+}
+
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.primaryColor {
+  color: var(--pri-clr);
+}
+
+.sectionTitle {
+  padding-bottom: 5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.sectionTitle::after {
+  background-color: var(--pri-clr);
+  content: '';
+  display: block;
+  width: 12rem;
+  height: 1.25rem;
+  margin: -1.25rem auto;
+  opacity: 0.3;
+}
+
+.projectTitle {
+  padding-bottom: 1.5rem;
+}
+
+.projectDescription {
+  text-align: center;
+}
+
+.iconFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iconFlex:hover {
+  color: var(--pri-clr);
+}
+
+.iconFlex:hover .m30Icon path {
+  fill: var(--pri-clr);
+}
+
+.m30Icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.m30Icon path {
+  fill: var(--accent-clr);
+}
+
+.restIcon {
+  fill: var(--accent-clr);
+  width: 2rem;
+  height: 2rem;
+}
+
+.mongooseIcon {
+  fill: var(--accent-clr);
+  width: 2rem;
+  height: 2rem;
+}
+
+.mongooseIcon path {
+  fill: var(--accent-clr);
+}
+
+.iconFlex:hover .restIcon,
+.iconFlex:hover .mongooseIcon path {
+  fill: var(--pri-clr);
+}
+
+.techUsed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0 3rem 0;
+}
+
+.ctaButton {
+  border: 2px solid var(--pri-clr);
+  color: var(--pri-clr);
+  font-size: var(--fs-300);
+  padding: 0.1rem 2rem;
+  border-radius: 3px;
+  text-decoration: none;
+  vertical-align: middle;
+  line-height: normal;
+  display: inline-block;
+}
+
+.ctaButton:hover {
+  filter: var(--filter-pri-clr);
+  background-color: var(--sec-bg-clr);
+}
+
+.projectImageContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.projectImageIphone {
+  width: 40%;
+  height: auto;
+}
+
+.projectImageMacbook {
+  width: 100%;
+  height: auto;
+}
+
+/* 768px */
+@media (min-width: 48em) {
+  .container {
+    width: min(75%, 85.375rem);
+    margin-inline: auto;
+  }
+}
+
+/* 1366px */
+@media (min-width: 85.375em) {
+  .container {
+    width: min(90%, 85.375rem);
+    height: 100vh;
+    display: grid;
+    place-content: center;
+  }
+
+  .sectionTitle {
+    padding-bottom: 1rem;
+  }
+
+  .subContainer {
+    flex-direction: row;
+  }
+
+  .subContainerReverse {
+    flex-direction: row-reverse;
+  }
+
+  .projectDescription {
+    max-width: 30rem;
+    text-align: left;
+  }
+
+  .subContainerReverse .projectDescription {
+    text-align: right;
+  }
+
+  .techUsed {
+    justify-content: start;
+  }
+
+  .subContainerReverse .techUsed {
+    justify-content: end;
+  }
+
+  .projectImageContainer {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 120rem) {
+  .container {
+    height: calc(100vh - 5.3125rem);
+  }
+
+  .sectionTitle {
+    padding-bottom: 7rem;
+  }
+}

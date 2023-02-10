@@ -3,7 +3,7 @@ import style from '@/components/FreelanceProjects/style.module.css';
 const FreelanceProjects = () => {
   return (
     <>
-      <section id='projects' className={style.container}>
+      <section className={style.container}>
         <h2 className={style.sectionTitle}>Freelance Projects</h2>
         <div className={style.subContainer}>
           <div>

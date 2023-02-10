@@ -3,6 +3,7 @@ import NavBar from '@/components/NavBar';
 import Home from '@/components/Home';
 import About from '@/components/About';
 import Skills from '@/components/Skills';
+import FeaturedProjects from '@/components/FeaturedProjects';
 import FreelanceProjects from '@/components/FreelanceProjects';
 import PersonalProjects from '@/components/PersonalProjects';
 import Certifications from '@/components/Certifications';
@@ -39,6 +40,7 @@ function App() {
           <Home />
           <About />
           <Skills />
+          <FeaturedProjects />
           <FreelanceProjects />
           <PersonalProjects />
           <Certifications />
