@@ -26,6 +26,9 @@ import {
   SiJirasoftware,
   SiTestinglibrary,
 } from 'react-icons/si';
+import { ReactComponent as RestIcon } from '../../assets/svg/rest-api-icon.svg';
+import { ReactComponent as MongooseIcon } from '../../assets/svg/mongoose-icon.svg';
+import { ReactComponent as TDDIcon } from '../../assets/svg/tdd-icon.svg';
 
 const Skills = () => {
   return (
@@ -101,8 +104,16 @@ const Skills = () => {
               <SiExpress />
             </span>
             <span className={style.iconFlex}>
+              REST API
+              <RestIcon className={style.restIcon} />
+            </span>
+            <span className={style.iconFlex}>
               MongoDB
               <SiMongodb />
+            </span>
+            <span className={style.iconFlex}>
+              Mongoose
+              <MongooseIcon className={style.mongooseIcon} />
             </span>
           </div>
         </div>
@@ -157,6 +168,10 @@ const Skills = () => {
           <div className={style.skillsSubContainer}>
             <h3 className={style.primaryColor}>Testing</h3>
             <div className={style.skillsContainer}>
+              <span className={style.iconFlex}>
+                TDD
+                <TDDIcon className={style.mongooseIcon} />
+              </span>
               <span className={style.iconFlex}>
                 Jest
                 <SiJest />

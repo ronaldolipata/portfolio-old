@@ -66,6 +66,27 @@
   color: var(--pri-clr);
 }
 
+.restIcon {
+  fill: var(--accent-clr);
+  width: 2rem;
+  height: 2rem;
+}
+
+.mongooseIcon {
+  fill: var(--accent-clr);
+  width: 2rem;
+  height: 2rem;
+}
+
+.mongooseIcon path {
+  fill: var(--accent-clr);
+}
+
+.iconFlex:hover .restIcon,
+.iconFlex:hover .mongooseIcon path {
+  fill: var(--pri-clr);
+}
+
 /* 768px */
 @media (min-width: 48em) {
   .container {
