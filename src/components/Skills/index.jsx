@@ -25,6 +25,8 @@ import {
   SiJest,
   SiJirasoftware,
   SiTestinglibrary,
+  SiPostman,
+  SiInsomnia,
 } from 'react-icons/si';
 import { ReactComponent as RestIcon } from '../../assets/svg/rest-api-icon.svg';
 import { ReactComponent as MongooseIcon } from '../../assets/svg/mongoose-icon.svg';
@@ -114,6 +116,14 @@ const Skills = () => {
             <span className={style.iconFlex}>
               Mongoose
               <MongooseIcon className={style.mongooseIcon} />
+            </span>
+            <span className={style.iconFlex}>
+              Postman
+              <SiPostman />
+            </span>
+            <span className={style.iconFlex}>
+              Insomia
+              <SiInsomnia />
             </span>
           </div>
         </div>
