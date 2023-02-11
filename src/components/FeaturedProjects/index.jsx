@@ -18,8 +18,8 @@ const FeaturedProjects = () => {
               </h3>
               <p>
                 An application focuses in sharing important events in life and
-                telling memorable stories to share. Users can input Title,
-                Content and upload their photos.
+                memorable stories. Users can input Title, Content and upload
+                their photos.
               </p>
               <div className={style.techUsed}>
                 <span className={style.iconFlex}>
