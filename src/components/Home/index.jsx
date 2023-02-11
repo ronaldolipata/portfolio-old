@@ -22,7 +22,7 @@ const Home = () => {
       </div>
       <img
         className={style.heroImage}
-        src='https://drive.google.com/uc?id=1W20LUP5csqI1DQpyCIMiSjBM1FrVSnd7'
+        src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132066/Web%20Dev%20Portfolio/hero-picture/Ron_taapsq.svg'
         alt='Ronaldo Lipata'
       />
     </section>

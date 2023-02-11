@@ -39,7 +39,7 @@ const FreelanceProjects = () => {
             </a>
           </div>
           <img
-            src='https://drive.google.com/uc?id=1vbGA2Fj-AK4Nu9sSvtQrh8OqC_48-1cI'
+            src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132057/Web%20Dev%20Portfolio/freelance-projects/project-koolweld_olrpyk.svg'
             alt='Koolweld Project'
             className={style.projectImage}
           />
@@ -81,7 +81,7 @@ const FreelanceProjects = () => {
             </a>
           </div>
           <img
-            src='https://drive.google.com/uc?id=15MrOfA0D97rHD4GeOuxeabaYPX2hSflD'
+            src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132057/Web%20Dev%20Portfolio/freelance-projects/project-j4sc2_i3i93g.svg'
             alt='J4SC2'
             className={style.projectImage}
           />

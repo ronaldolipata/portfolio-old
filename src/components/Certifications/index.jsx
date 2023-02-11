@@ -9,7 +9,7 @@ const Certifications = () => {
           <div className={style.subContainer}>
             <img
               className={style.cardImage}
-              src='https://drive.google.com/uc?id=1c2ko6WPWqCJgtqdlY8O75vp3LEVjpw1C'
+              src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132059/Web%20Dev%20Portfolio/certifications/ronaldo-lipata-uplift-certificate_iewwmp.svg'
               alt='certificate image'
             />
             <div className={style.cardDescription}>
@@ -33,7 +33,7 @@ const Certifications = () => {
           <div className={style.subContainer}>
             <img
               className={style.cardImage}
-              src='https://drive.google.com/uc?id=1AkfLNULGYTs3kM_XnIPZRjiz09r73_CH'
+              src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132059/Web%20Dev%20Portfolio/certifications/ronaldo-lipata-figma-for-beginners-pwa-pilipinas-certificate_khjchj.svg'
               alt='certificate image'
             />
             <div className={style.cardDescription}>
@@ -57,7 +57,7 @@ const Certifications = () => {
           <div className={style.subContainer}>
             <img
               className={style.cardImage}
-              src='https://drive.google.com/uc?id=19RFvCmUCiupFc-hey4CbeMcnhYlYYSJK'
+              src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132059/Web%20Dev%20Portfolio/certifications/ronaldolipata-conquering-responsive-layouts-certificate_rgfcsz.svg'
               alt='certificate image'
             />
             <div className={style.cardDescription}>

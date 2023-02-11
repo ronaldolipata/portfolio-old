@@ -66,12 +66,12 @@ const FeaturedProjects = () => {
             <div className={style.projectImageContainer}>
               <img
                 className={style.projectImageIphone}
-                src='https://drive.google.com/uc?id=1UeYQ9Vx_HBezgK8DkT2sH-8l5JO2JlNn'
+                src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132062/Web%20Dev%20Portfolio/featured-projects/memoirs-iphone_zqu58h.svg'
                 alt='featured project image'
               />
               <img
                 className={style.projectImageMacbook}
-                src='https://drive.google.com/uc?id=1ocxgxwO207tVBeJp73MVHI-ELim01onP'
+                src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132063/Web%20Dev%20Portfolio/featured-projects/memoirs-macbook_okgq4h.svg'
                 alt='featured project image'
               />
             </div>
@@ -118,12 +118,12 @@ const FeaturedProjects = () => {
           <div className={style.projectImageContainer}>
             <img
               className={style.projectImageIphone}
-              src='https://drive.google.com/uc?id=1EEx1lGrzwghNSH21aYo29c49nQuqRm7I'
+              src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132062/Web%20Dev%20Portfolio/featured-projects/paytaka-iphone_or7lsr.svg'
               alt='featured project image'
             />
             <img
               className={style.projectImageMacbook}
-              src='https://drive.google.com/uc?id=1IObTcb8TJR0POX-Wjjq8QvgYzM_kE-RQ'
+              src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132064/Web%20Dev%20Portfolio/featured-projects/paytaka-macbook_cwfjab.svg'
               alt='featured project image'
             />
           </div>
@@ -165,12 +165,12 @@ const FeaturedProjects = () => {
           <div className={style.projectImageContainer}>
             <img
               className={style.projectImageIphone}
-              src='https://drive.google.com/uc?id=1O8N6DxPmCv4DRjISeE9oF9mSgjVmLNst'
+              src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132062/Web%20Dev%20Portfolio/featured-projects/mixmatch-iphone_ekz20a.svg'
               alt='featured project image'
             />
             <img
               className={style.projectImageMacbook}
-              src='https://drive.google.com/uc?id=18JBdRIht61TTDSbSfA-_6uK0bTJqcNJL'
+              src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132063/Web%20Dev%20Portfolio/featured-projects/mixmatch-macbook_b8ucdh.svg'
               alt='featured project image'
             />
           </div>

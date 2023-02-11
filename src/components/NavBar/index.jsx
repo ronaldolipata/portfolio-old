@@ -35,7 +35,7 @@ const NavBar = () => {
       <div className={style.subContainer}>
         <a href='#home' className={style.logo}>
           <img
-            src='https://drive.google.com/uc?id=1yP_odSGis-dLNHol7iEdwpuwbsTfy1UC'
+            src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132061/Web%20Dev%20Portfolio/dark-theme/dark-theme-logo_fwtr6i.svg'
             alt='Logo'
           />
         </a>
