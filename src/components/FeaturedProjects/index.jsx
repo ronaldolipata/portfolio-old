@@ -66,7 +66,7 @@ const FeaturedProjects = () => {
             <div className={style.projectImageContainer}>
               <img
                 className={style.projectImageIphone}
-                src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132062/Web%20Dev%20Portfolio/featured-projects/memoirs-iphone_zqu58h.svg'
+                src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676271650/Web%20Dev%20Portfolio/featured-projects/memoirs-iphone_vzkalx.svg'
                 alt='featured project image'
               />
               <img
