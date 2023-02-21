@@ -80,6 +80,7 @@
   fill: var(--accent-clr);
   width: 2rem;
   height: 2rem;
+  scale: 1.5;
 }
 
 .mongooseIcon path {
