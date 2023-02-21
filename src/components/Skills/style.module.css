@@ -76,14 +76,19 @@
   height: 2rem;
 }
 
-.mongooseIcon {
+.mongooseIcon,
+.TDDIcon {
   fill: var(--accent-clr);
   width: 2rem;
   height: 2rem;
+}
+
+.mongooseIcon {
   scale: 1.5;
 }
 
-.mongooseIcon path {
+.mongooseIcon path,
+.TDDIcon path {
   fill: var(--accent-clr);
 }
 

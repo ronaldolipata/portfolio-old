@@ -185,7 +185,7 @@ const Skills = () => {
             <div className={style.skillsContainer}>
               <span className={style.iconFlex}>
                 TDD
-                <TDDIcon className={style.mongooseIcon} />
+                <TDDIcon className={style.TDDIcon} />
               </span>
               <span className={style.iconFlex}>
                 Jest
