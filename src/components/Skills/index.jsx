@@ -28,6 +28,7 @@ import {
   SiPostman,
   SiInsomnia,
 } from 'react-icons/si';
+import { DiScrum } from 'react-icons/di';
 import { ReactComponent as RestIcon } from '../../assets/svg/rest-api-icon.svg';
 import { ReactComponent as MongooseIcon } from '../../assets/svg/mongoose-icon.svg';
 import { ReactComponent as TDDIcon } from '../../assets/svg/tdd-icon.svg';
@@ -164,6 +165,10 @@ const Skills = () => {
           <div className={style.skillsSubContainer}>
             <h3 className={style.primaryColor}>Project Management</h3>
             <div className={style.skillsContainer}>
+              <span className={style.iconFlex}>
+                Scrum
+                <DiScrum className={style.scrumIcon} />
+              </span>
               <span className={style.iconFlex}>
                 Jira
                 <SiJirasoftware />
