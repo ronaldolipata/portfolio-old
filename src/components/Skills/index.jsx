@@ -17,6 +17,7 @@ import {
   SiVite,
   SiWebpack,
   SiRedux,
+  SiMaterialui,
   SiChakraui,
   SiJavascript,
   SiTypescript,
@@ -76,6 +77,10 @@ const Skills = () => {
             <span className={style.iconFlex}>
               Redux
               <SiRedux />
+            </span>
+            <span className={style.iconFlex}>
+              MUI
+              <SiMaterialui />
             </span>
             <span className={style.iconFlex}>
               Chakra UI
