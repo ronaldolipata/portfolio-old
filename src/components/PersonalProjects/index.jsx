@@ -1,3 +1,4 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import style from '@/components/PersonalProjects/style.module.css';
 
 const PersonalProjects = () => {
@@ -7,7 +8,7 @@ const PersonalProjects = () => {
       <div className={style.cardContainer}>
         <div className={style.card}>
           <div className={style.subContainer}>
-            <img
+            <LazyLoadImage
               className={style.projectImage}
               src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132058/Web%20Dev%20Portfolio/personal-projects/personal-project-portfolio_ocydq4.svg'
               alt='personal project image'
@@ -39,7 +40,7 @@ const PersonalProjects = () => {
         </div>
         <div className={style.card}>
           <div className={style.subContainer}>
-            <img
+            <LazyLoadImage
               className={style.projectImage}
               src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132059/Web%20Dev%20Portfolio/personal-projects/personal-project-weather-app_hi6w4e.svg'
               alt='personal project image'
@@ -76,7 +77,7 @@ const PersonalProjects = () => {
         </div>
         <div className={style.card}>
           <div className={style.subContainer}>
-            <img
+            <LazyLoadImage
               className={style.projectImage}
               src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132057/Web%20Dev%20Portfolio/personal-projects/personal-project-pokemon-app_hmngpa.svg'
               alt='personal project image'
@@ -112,7 +113,7 @@ const PersonalProjects = () => {
         </div>
         <div className={style.card}>
           <div className={style.subContainer}>
-            <img
+            <LazyLoadImage
               className={style.projectImage}
               src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132058/Web%20Dev%20Portfolio/personal-projects/personal-project-simon-game_r0z65m.svg'
               alt='personal project image'
@@ -147,7 +148,7 @@ const PersonalProjects = () => {
         </div>
         <div className={style.card}>
           <div className={style.subContainer}>
-            <img
+            <LazyLoadImage
               className={style.projectImage}
               src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132057/Web%20Dev%20Portfolio/personal-projects/personal-project-dice-game_riqakn.svg'
               alt='personal project image'
@@ -180,7 +181,7 @@ const PersonalProjects = () => {
         </div>
         <div className={style.card}>
           <div className={style.subContainer}>
-            <img
+            <LazyLoadImage
               className={style.projectImage}
               src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132057/Web%20Dev%20Portfolio/personal-projects/personal-project-drum-kit_a4l9xz.svg'
               alt='personal project image'

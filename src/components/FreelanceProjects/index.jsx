@@ -1,3 +1,4 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import style from '@/components/FreelanceProjects/style.module.css';
 
 const FreelanceProjects = () => {
@@ -38,7 +39,7 @@ const FreelanceProjects = () => {
               View Demo
             </a>
           </div>
-          <img
+          <LazyLoadImage
             src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132057/Web%20Dev%20Portfolio/freelance-projects/project-koolweld_olrpyk.svg'
             alt='Koolweld Project'
             className={style.projectImage}
@@ -80,7 +81,7 @@ const FreelanceProjects = () => {
               View Demo
             </a>
           </div>
-          <img
+          <LazyLoadImage
             src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132057/Web%20Dev%20Portfolio/freelance-projects/project-j4sc2_i3i93g.svg'
             alt='J4SC2'
             className={style.projectImage}

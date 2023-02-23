@@ -1,3 +1,4 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import style from '@/components/Home/style.module.css';
 
 const Home = () => {
@@ -20,7 +21,7 @@ const Home = () => {
           Get in touch
         </a>
       </div>
-      <img
+      <LazyLoadImage
         className={style.heroImage}
         src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132066/Web%20Dev%20Portfolio/hero-picture/Ron_taapsq.svg'
         alt='Ronaldo Lipata'

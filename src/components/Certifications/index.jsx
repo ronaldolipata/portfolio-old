@@ -1,3 +1,4 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import style from '@/components/Certifications/style.module.css';
 
 const Certifications = () => {
@@ -7,7 +8,7 @@ const Certifications = () => {
       <div className={style.cardContainer}>
         <div className={style.card}>
           <div className={style.subContainer}>
-            <img
+            <LazyLoadImage
               className={style.cardImage}
               src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132059/Web%20Dev%20Portfolio/certifications/ronaldo-lipata-uplift-certificate_iewwmp.svg'
               alt='certificate image'
@@ -31,7 +32,7 @@ const Certifications = () => {
         </div>
         <div className={style.card}>
           <div className={style.subContainer}>
-            <img
+            <LazyLoadImage
               className={style.cardImage}
               src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132059/Web%20Dev%20Portfolio/certifications/ronaldo-lipata-figma-for-beginners-pwa-pilipinas-certificate_khjchj.svg'
               alt='certificate image'
@@ -55,7 +56,7 @@ const Certifications = () => {
         </div>
         <div className={style.card}>
           <div className={style.subContainer}>
-            <img
+            <LazyLoadImage
               className={style.cardImage}
               src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132059/Web%20Dev%20Portfolio/certifications/ronaldolipata-conquering-responsive-layouts-certificate_rgfcsz.svg'
               alt='certificate image'
