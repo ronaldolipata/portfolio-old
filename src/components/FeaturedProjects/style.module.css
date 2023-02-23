@@ -173,6 +173,14 @@
   .projectImageContainer {
     flex-direction: row;
   }
+
+  .projectImageIphone {
+    width: 27%;
+  }
+
+  .projectImageMacbook {
+    width: 68%;
+  }
 }
 
 @media (min-width: 120rem) {
