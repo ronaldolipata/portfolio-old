@@ -1,3 +1,24 @@
+@font-face {
+  font-family: 'Dongle';
+  src: url('@/assets/font/Dongle-Light.ttf') format('truetype');
+  font-weight: light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dongle';
+  src: url('@/assets/font/Dongle-Regular.ttf') format('truetype');
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dongle';
+  src: url('@/assets/font/Dongle-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
 :root {
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
