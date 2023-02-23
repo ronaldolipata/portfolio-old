@@ -1,14 +1,15 @@
-import { useEffect } from 'react';
-import NavBar from '@/components/NavBar';
-import Home from '@/components/Home';
-import About from '@/components/About';
-import Skills from '@/components/Skills';
-import FeaturedProjects from '@/components/FeaturedProjects';
-import FreelanceProjects from '@/components/FreelanceProjects';
-import PersonalProjects from '@/components/PersonalProjects';
-import Certifications from '@/components/Certifications';
-import Contact from '@/components/Contact';
+import { lazy, Suspense, useEffect } from 'react';
 import style from '@/components/App/style.module.css';
+
+const NavBar = lazy(() => import('@/components/NavBar'));
+const Home = lazy(() => import('@/components/Home'));
+const About = lazy(() => import('@/components/About'));
+const Skills = lazy(() => import('@/components/Skills'));
+const FeaturedProjects = lazy(() => import('@/components/FeaturedProjects'));
+const FreelanceProjects = lazy(() => import('@/components/FreelanceProjects'));
+const PersonalProjects = lazy(() => import('@/components/PersonalProjects'));
+const Certifications = lazy(() => import('@/components/Certifications'));
+const Contact = lazy(() => import('@/components/Contact'));
 
 function App() {
   useEffect(() => {
@@ -34,19 +35,21 @@ function App() {
 
   return (
     <>
-      <NavBar />
-      <div className={style.container}>
-        <main>
-          <Home />
-          <About />
-          <Skills />
-          <FeaturedProjects />
-          <FreelanceProjects />
-          <PersonalProjects />
-          <Certifications />
-          <Contact />
-        </main>
-      </div>
+      <Suspense fallback={<div>Loading...</div>}>
+        <NavBar />
+        <div className={style.container}>
+          <main>
+            <Home />
+            <About />
+            <Skills />
+            <FeaturedProjects />
+            <FreelanceProjects />
+            <PersonalProjects />
+            <Certifications />
+            <Contact />
+          </main>
+        </div>
+      </Suspense>
     </>
   );
 }
