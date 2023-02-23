@@ -1,23 +1,4 @@
-@font-face {
-  font-family: 'Dongle';
-  src: url('@/assets/font/Dongle-Light.ttf') format('truetype');
-  font-weight: light;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Dongle';
-  src: url('@/assets/font/Dongle-Regular.ttf') format('truetype');
-  font-weight: regular;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Dongle';
-  src: url('@/assets/font/Dongle-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
 
 :root {
   color-scheme: light dark;
@@ -30,7 +11,7 @@
   --accent-sec-clr: #a8b2d1;
   --bg-clr: #16151d;
   --sec-bg-clr: rgba(37, 40, 42, 1);
-  --ff: 'Dongle';
+  --ff: 'Dongle', sans-serif;
   --fs-400: 2rem;
   --fs-300: 1.8rem;
   --fs-200: 1rem;
