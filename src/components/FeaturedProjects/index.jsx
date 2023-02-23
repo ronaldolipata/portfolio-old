@@ -2,7 +2,9 @@ import style from '@/components/FeaturedProjects/style.module.css';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs } from 'react-icons/fa';
 import { SiVite, SiJavascript, SiExpress, SiMongodb } from 'react-icons/si';
-import { TbApi } from 'react-icons/tb';
+import { ReactComponent as M30Icon } from '@/assets/svg/m30-api-icon.svg';
+import { ReactComponent as RestIcon } from '@/assets/svg/rest-api-icon.svg';
+import { ReactComponent as MongooseIcon } from '@/assets/svg/mongoose-icon.svg';
 
 const FeaturedProjects = () => {
   const featuredProjectsData = [
@@ -38,11 +40,15 @@ const FeaturedProjects = () => {
         },
         {
           tech: 'REST API',
-          img: <TbApi />,
+          img: <RestIcon className={style.restIcon} />,
         },
         {
           tech: 'MongoDB',
           img: <SiMongodb />,
+        },
+        {
+          tech: 'Mongoose',
+          img: <MongooseIcon className={style.mongooseIcon} />,
         },
       ],
       demo: 'https://ronaldolipata.github.io/memoirs-frontend/',
@@ -72,7 +78,7 @@ const FeaturedProjects = () => {
         },
         {
           tech: 'm30 API',
-          img: <TbApi />,
+          img: <M30Icon className={style.m30Icon} />,
         },
       ],
       demo: 'https://ronaldolipata.github.io/Paytaka-Virtual-Wallet/',
