@@ -3,7 +3,7 @@ import style from '@/components/PersonalProjects/style.module.css';
 
 const PersonalProjects = () => {
   return (
-    <div className={style.container}>
+    <section className={style.container}>
       <h2 className={style.sectionTitle}>Personal Projects</h2>
       <div className={style.cardContainer}>
         <div className={style.card}>
@@ -214,7 +214,7 @@ const PersonalProjects = () => {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

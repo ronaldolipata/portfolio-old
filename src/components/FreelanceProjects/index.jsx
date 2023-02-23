@@ -3,8 +3,8 @@ import style from '@/components/FreelanceProjects/style.module.css';
 
 const FreelanceProjects = () => {
   return (
-    <>
-      <section className={style.container}>
+    <section>
+      <div className={style.container}>
         <h2 className={style.sectionTitle}>Freelance Projects</h2>
         <div className={style.subContainer}>
           <div>
@@ -45,8 +45,8 @@ const FreelanceProjects = () => {
             className={style.projectImage}
           />
         </div>
-      </section>
-      <section className={style.container}>
+      </div>
+      <div className={style.container}>
         <div className={`${style.subContainer} ${style.subContainerReverse}`}>
           <div>
             <h4 className={`${style.primaryColor} ${style.projectTitle}`}>
@@ -87,8 +87,8 @@ const FreelanceProjects = () => {
             className={style.projectImage}
           />
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 };
 
