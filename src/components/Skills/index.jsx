@@ -30,179 +30,188 @@ import {
   SiInsomnia,
 } from 'react-icons/si';
 import { DiScrum } from 'react-icons/di';
-import { ReactComponent as RestIcon } from '../../assets/svg/rest-api-icon.svg';
-import { ReactComponent as MongooseIcon } from '../../assets/svg/mongoose-icon.svg';
-import { ReactComponent as TDDIcon } from '../../assets/svg/tdd-icon.svg';
+import { ReactComponent as RestIcon } from '@/assets/svg/rest-api-icon.svg';
+import { ReactComponent as MongooseIcon } from '@/assets/svg/mongoose-icon.svg';
+import { ReactComponent as TDDIcon } from '@/assets/svg/tdd-icon.svg';
 
 const Skills = () => {
+  const skillsData = [
+    {
+      scope: 'Front End Technologies',
+      skills: [
+        {
+          tech: 'HTML',
+          img: <FaHtml5 />,
+        },
+        {
+          tech: 'CSS',
+          img: <FaCss3Alt />,
+        },
+        {
+          tech: 'Tailwind',
+          img: <SiTailwindcss />,
+        },
+        {
+          tech: 'Bootstrap',
+          img: <FaBootstrap />,
+        },
+        {
+          tech: 'SASS',
+          img: <FaSass />,
+        },
+        {
+          tech: 'JavaScript',
+          img: <SiJavascript />,
+        },
+        {
+          tech: 'TypeScript',
+          img: <SiTypescript />,
+        },
+        {
+          tech: 'React',
+          img: <FaReact />,
+        },
+        {
+          tech: 'Redux',
+          img: <SiRedux />,
+        },
+        {
+          tech: 'MUI',
+          img: <SiMaterialui />,
+        },
+        {
+          tech: 'Chakra UI',
+          img: <SiChakraui />,
+        },
+        {
+          tech: 'Figma',
+          img: <FaFigma />,
+        },
+      ],
+    },
+    {
+      scope: 'Back End Technologies',
+      skills: [
+        {
+          tech: 'JavaScript',
+          img: <SiJavascript />,
+        },
+        {
+          tech: 'TypeScript',
+          img: <SiTypescript />,
+        },
+        {
+          tech: 'Node JS',
+          img: <FaNodeJs />,
+        },
+        {
+          tech: 'Express JS',
+          img: <SiExpress />,
+        },
+        {
+          tech: 'REST API',
+          img: <RestIcon className={style.restIcon} />,
+        },
+        {
+          tech: 'MongoDB',
+          img: <SiMongodb />,
+        },
+        {
+          tech: 'Mongoose',
+          img: <MongooseIcon className={style.mongooseIcon} />,
+        },
+        {
+          tech: 'Postman',
+          img: <SiPostman />,
+        },
+        {
+          tech: 'Insomia',
+          img: <SiInsomnia />,
+        },
+      ],
+    },
+    {
+      scope: 'Build Tools / Bundler',
+      skills: [
+        {
+          tech: 'Vite',
+          img: <SiVite />,
+        },
+        {
+          tech: 'Webpack',
+          img: <SiWebpack />,
+        },
+      ],
+    },
+    {
+      scope: 'DevOps',
+      skills: [
+        {
+          tech: 'Git',
+          img: <FaGitAlt />,
+        },
+        {
+          tech: 'GitHub',
+          img: <FaGithub />,
+        },
+        {
+          tech: 'GitLab',
+          img: <FaGitlab />,
+        },
+      ],
+    },
+    {
+      scope: 'Project Management',
+      skills: [
+        {
+          tech: 'Scrum',
+          img: <DiScrum className={style.scrumIcon} />,
+        },
+        {
+          tech: 'Jira',
+          img: <SiJirasoftware />,
+        },
+        {
+          tech: 'Trello',
+          img: <FaTrello />,
+        },
+      ],
+    },
+    {
+      scope: 'Testing',
+      skills: [
+        {
+          tech: 'TDD',
+          img: <TDDIcon className={`${style.iconFlex} ${style.TDDIcon}`} />,
+        },
+        {
+          tech: 'Jest',
+          img: <SiJest />,
+        },
+        {
+          tech: 'RTL',
+          img: <SiTestinglibrary />,
+        },
+      ],
+    },
+  ];
+
   return (
     <section id='skills' className={style.container}>
       <h2 className={style.sectionTitle}>Skills & Technologies</h2>
-      <div className={style.skillsMainContainer}>
-        <div className={style.skillsSubContainer}>
-          <h3 className={style.primaryColor}>Front-End Technologies</h3>
-          <div className={style.skillsContainer}>
-            <span className={style.iconFlex}>
-              HTML
-              <FaHtml5 />
-            </span>
-            <span className={style.iconFlex}>
-              CSS
-              <FaCss3Alt />
-            </span>
-            <span className={style.iconFlex}>
-              Tailwind
-              <SiTailwindcss />
-            </span>
-            <span className={style.iconFlex}>
-              Bootstrap
-              <FaBootstrap />
-            </span>
-            <span className={style.iconFlex}>
-              SASS
-              <FaSass />
-            </span>
-            <span className={style.iconFlex}>
-              JavaScript
-              <SiJavascript />
-            </span>
-            <span className={style.iconFlex}>
-              TypeScript
-              <SiTypescript />
-            </span>
-            <span className={style.iconFlex}>
-              React
-              <FaReact />
-            </span>
-            <span className={style.iconFlex}>
-              Redux
-              <SiRedux />
-            </span>
-            <span className={style.iconFlex}>
-              MUI
-              <SiMaterialui />
-            </span>
-            <span className={style.iconFlex}>
-              Chakra UI
-              <SiChakraui />
-            </span>
-            <span className={style.iconFlex}>
-              Figma
-              <FaFigma />
-            </span>
-          </div>
-        </div>
-        <div className={style.skillsSubContainer}>
-          <h3 className={style.primaryColor}>Back-End Technologies</h3>
-          <div className={style.skillsContainer}>
-            <span className={style.iconFlex}>
-              JavaScript
-              <SiJavascript />
-            </span>
-            <span className={style.iconFlex}>
-              TypeScript
-              <SiTypescript />
-            </span>
-            <span className={style.iconFlex}>
-              Node JS
-              <FaNodeJs />
-            </span>
-            <span className={style.iconFlex}>
-              Express JS
-              <SiExpress />
-            </span>
-            <span className={style.iconFlex}>
-              REST API
-              <RestIcon className={style.restIcon} />
-            </span>
-            <span className={style.iconFlex}>
-              MongoDB
-              <SiMongodb />
-            </span>
-            <span className={style.iconFlex}>
-              Mongoose
-              <MongooseIcon className={style.mongooseIcon} />
-            </span>
-            <span className={style.iconFlex}>
-              Postman
-              <SiPostman />
-            </span>
-            <span className={style.iconFlex}>
-              Insomia
-              <SiInsomnia />
-            </span>
-          </div>
-        </div>
-        <div className={style.skillsSubContainerFlexRow}>
-          <div className={style.skillsSubContainer}>
-            <h3 className={style.primaryColor}>Build Tools / Bundler</h3>
-            <div className={style.skillsContainer}>
-              <span className={style.iconFlex}>
-                Vite
-                <SiVite />
-              </span>
-              <span className={style.iconFlex}>
-                Webpack
-                <SiWebpack />
-              </span>
+      <div className={style.subContainer}>
+        {skillsData.map(({ scope, skills }) => (
+          <div key={scope} className={style.skillsContainer}>
+            <h3 className={style.primaryColor}>{scope}</h3>
+            <div className={style.skillsSubContainer}>
+              {skills.map(({ tech, img }, index) => (
+                <span key={index} className={style.iconFlex}>
+                  {tech} {img}
+                </span>
+              ))}
             </div>
           </div>
-
-          <div className={style.skillsSubContainer}>
-            <h3 className={style.primaryColor}>DevOps / Version Control</h3>
-            <div className={style.skillsContainer}>
-              <span className={style.iconFlex}>
-                Git
-                <FaGitAlt />
-              </span>
-              <span className={style.iconFlex}>
-                GitHub
-                <FaGithub />
-              </span>
-              <span className={style.iconFlex}>
-                GitLab
-                <FaGitlab />
-              </span>
-            </div>
-          </div>
-        </div>
-        <div className={style.skillsSubContainerFlexRow}>
-          <div className={style.skillsSubContainer}>
-            <h3 className={style.primaryColor}>Project Management</h3>
-            <div className={style.skillsContainer}>
-              <span className={style.iconFlex}>
-                Scrum
-                <DiScrum className={style.scrumIcon} />
-              </span>
-              <span className={style.iconFlex}>
-                Jira
-                <SiJirasoftware />
-              </span>
-              <span className={style.iconFlex}>
-                Trello
-                <FaTrello />
-              </span>
-            </div>
-          </div>
-
-          <div className={style.skillsSubContainer}>
-            <h3 className={style.primaryColor}>Testing</h3>
-            <div className={style.skillsContainer}>
-              <span className={style.iconFlex}>
-                TDD
-                <TDDIcon className={style.TDDIcon} />
-              </span>
-              <span className={style.iconFlex}>
-                Jest
-                <SiJest />
-              </span>
-              <span className={style.iconFlex}>
-                RTL
-                <SiTestinglibrary />
-              </span>
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
     </section>
   );

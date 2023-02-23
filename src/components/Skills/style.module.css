@@ -30,27 +30,20 @@
   margin: 2rem 0;
 }
 
-.skillsMainContainer {
+.subContainer {
   display: flex;
   flex-wrap: wrap;
   gap: 5rem 3rem;
 }
 
-.skillsSubContainer {
+.skillsContainer {
   display: flex;
   flex-direction: column;
   align-items: start;
   gap: 1rem 0;
 }
 
-.skillsSubContainerFlexRow {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-  width: 100%;
-}
-
-.skillsContainer {
+.skillsSubContainer {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -104,11 +97,6 @@
     width: min(75%, 85.375rem);
     margin-inline: auto;
   }
-
-  .skillsSubContainerFlexRow {
-    flex-direction: row;
-    gap: 4rem;
-  }
 }
 
 /* 1366px */
@@ -120,12 +108,35 @@
     place-content: center;
   }
 
-  .skillsMainContainer {
+  .subContainer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      'frontend frontend backend backend'
+      'tools devops projmgmt testing';
   }
 
-  .skillsSubContainerFlexRow {
-    gap: 3rem;
+  .skillsContainer:nth-child(1) {
+    grid-area: frontend;
+  }
+
+  .skillsContainer:nth-child(2) {
+    grid-area: backend;
+  }
+
+  .skillsContainer:nth-child(3) {
+    grid-area: tools;
+  }
+
+  .skillsContainer:nth-child(4) {
+    grid-area: devops;
+  }
+
+  .skillsContainer:nth-child(5) {
+    grid-area: projmgmt;
+  }
+
+  .skillsContainer:nth-child(6) {
+    grid-area: testing;
   }
 }

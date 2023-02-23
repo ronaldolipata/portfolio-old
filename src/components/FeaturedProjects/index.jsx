@@ -18,31 +18,31 @@ const FeaturedProjects = () => {
       techUsed: [
         {
           tech: 'Vite',
-          src: <SiVite />,
+          img: <SiVite />,
         },
         {
           tech: 'React',
-          src: <FaReact />,
+          img: <FaReact />,
         },
         {
           tech: 'CSS',
-          src: <FaCss3Alt />,
+          img: <FaCss3Alt />,
         },
         {
           tech: 'Node',
-          src: <FaNodeJs />,
+          img: <FaNodeJs />,
         },
         {
           tech: 'Express',
-          src: <SiExpress />,
+          img: <SiExpress />,
         },
         {
           tech: 'REST API',
-          src: <TbApi />,
+          img: <TbApi />,
         },
         {
           tech: 'MongoDB',
-          src: <SiMongodb />,
+          img: <SiMongodb />,
         },
       ],
       demo: 'https://ronaldolipata.github.io/memoirs-frontend/',
@@ -60,19 +60,19 @@ const FeaturedProjects = () => {
       techUsed: [
         {
           tech: 'Vite',
-          src: <SiVite />,
+          img: <SiVite />,
         },
         {
           tech: 'React',
-          src: <FaReact />,
+          img: <FaReact />,
         },
         {
           tech: 'CSS',
-          src: <FaCss3Alt />,
+          img: <FaCss3Alt />,
         },
         {
           tech: 'm30 API',
-          src: <TbApi />,
+          img: <TbApi />,
         },
       ],
       demo: 'https://ronaldolipata.github.io/Paytaka-Virtual-Wallet/',
@@ -89,15 +89,15 @@ const FeaturedProjects = () => {
       techUsed: [
         {
           tech: 'HTML',
-          src: <FaHtml5 />,
+          img: <FaHtml5 />,
         },
         {
           tech: 'CSS',
-          src: <FaCss3Alt />,
+          img: <FaCss3Alt />,
         },
         {
           tech: 'JavaScript',
-          src: <SiJavascript />,
+          img: <SiJavascript />,
         },
       ],
       demo: 'https://ronaldolipata.github.io/Card-Matching-Game-Space-Theme/',
@@ -127,9 +127,9 @@ const FeaturedProjects = () => {
                 </h3>
                 <p>{desc}</p>
                 <div className={style.techUsed}>
-                  {techUsed.map(({ tech, src }) => (
+                  {techUsed.map(({ tech, img }) => (
                     <span key={tech} className={style.iconFlex}>
-                      {tech} {src}
+                      {tech} {img}
                     </span>
                   ))}
                 </div>
