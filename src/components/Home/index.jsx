@@ -21,11 +21,13 @@ const Home = () => {
           Get in touch
         </a>
       </div>
-      <LazyLoadImage
-        className={style.heroImage}
-        src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132066/Web%20Dev%20Portfolio/hero-picture/Ron_taapsq.svg'
-        alt='Ronaldo Lipata'
-      />
+      <div>
+        <LazyLoadImage
+          className={style.heroImage}
+          src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132066/Web%20Dev%20Portfolio/hero-picture/Ron_taapsq.svg'
+          alt='Ronaldo Lipata'
+        />
+      </div>
     </section>
   );
 };
