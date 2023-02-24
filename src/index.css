@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+@import '@fontsource/dongle/index.css';
 
 :root {
   color-scheme: light dark;
