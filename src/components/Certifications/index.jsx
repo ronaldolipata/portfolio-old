@@ -14,12 +14,10 @@ const Certifications = () => {
               alt='certificate image'
             />
             <div className={style.cardDescription}>
-              <p>
-                <span className={`${style.cardTitle} ${style.primaryColor}`}>
-                  Full Stack Web Development (MERN) {''}
-                </span>
-                from Uplift Code Camp
+              <p className={`${style.cardTitle} ${style.primaryColor}`}>
+                Full Stack Web Development
               </p>
+              <p>Uplift Code Camp</p>
             </div>
           </div>
           <a
@@ -38,12 +36,10 @@ const Certifications = () => {
               alt='certificate image'
             />
             <div className={style.cardDescription}>
-              <p>
-                <span className={`${style.cardTitle} ${style.primaryColor}`}>
-                  Figma for Beginners {''}
-                </span>
-                from PWA Pilipinas
+              <p className={`${style.cardTitle} ${style.primaryColor}`}>
+                Figma for Beginners
               </p>
+              <p>PWA Pilipinas</p>
             </div>
           </div>
           <a
@@ -62,12 +58,10 @@ const Certifications = () => {
               alt='certificate image'
             />
             <div className={style.cardDescription}>
-              <p>
-                <span className={`${style.cardTitle} ${style.primaryColor}`}>
-                  Conquering Responsive Layouts {''}
-                </span>
-                from Kevin Powell
+              <p className={`${style.cardTitle} ${style.primaryColor}`}>
+                Conquering Responsive Layouts
               </p>
+              <p>Kevin Powell</p>
             </div>
           </div>
           <a
