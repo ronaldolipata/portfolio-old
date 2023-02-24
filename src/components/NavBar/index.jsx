@@ -1,4 +1,5 @@
 import { useRef } from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import style from '@/components/NavBar/style.module.css';
 
 const NavBar = () => {
@@ -34,7 +35,7 @@ const NavBar = () => {
     <header className={style.container} ref={refHeader}>
       <div className={style.subContainer}>
         <a href='#home' className={style.logo}>
-          <img
+          <LazyLoadImage
             src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132061/Web%20Dev%20Portfolio/dark-theme/dark-theme-logo_fwtr6i.svg'
             alt='Logo'
           />

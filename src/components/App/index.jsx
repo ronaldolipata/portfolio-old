@@ -1,5 +1,4 @@
 import { lazy, Suspense, useEffect } from 'react';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 import style from '@/components/App/style.module.css';
 
 const NavBar = lazy(() => import('@/components/NavBar'));
