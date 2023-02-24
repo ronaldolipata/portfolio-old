@@ -7,7 +7,6 @@ const About = lazy(() => import('@/components/About'));
 const Skills = lazy(() => import('@/components/Skills'));
 const FeaturedProjects = lazy(() => import('@/components/FeaturedProjects'));
 const FreelanceProjects = lazy(() => import('@/components/FreelanceProjects'));
-const PersonalProjects = lazy(() => import('@/components/PersonalProjects'));
 const Certifications = lazy(() => import('@/components/Certifications'));
 const Contact = lazy(() => import('@/components/Contact'));
 
@@ -44,7 +43,6 @@ function App() {
             <Skills />
             <FeaturedProjects />
             <FreelanceProjects />
-            {/* <PersonalProjects /> */}
             <Certifications />
             <Contact />
           </main>
