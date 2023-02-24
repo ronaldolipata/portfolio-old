@@ -1,8 +1,16 @@
+.loading {
+  background-image: url('https://drive.google.com/uc?id=1Lco-1n3MbfGLLE2_cRmGWplha8jTqnp0');
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-content: center;
+}
+
 .container {
-  padding: 0 1.5rem;
   background-image: url('https://drive.google.com/uc?id=1Lco-1n3MbfGLLE2_cRmGWplha8jTqnp0');
   background-position: center;
   background-size: contain;
+  padding: 0 1.5rem;
 }
 
 /* 768px */

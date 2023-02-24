@@ -1,4 +1,5 @@
 import { lazy, Suspense, useEffect } from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import style from '@/components/App/style.module.css';
 
 const NavBar = lazy(() => import('@/components/NavBar'));
@@ -35,7 +36,7 @@ function App() {
 
   return (
     <>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div className={style.loading}>Loading...</div>}>
         <NavBar />
         <div className={style.container}>
           <main>
