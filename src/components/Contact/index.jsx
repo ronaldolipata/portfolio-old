@@ -1,3 +1,5 @@
+import { FaLinkedin, FaGithubSquare, FaDribbbleSquare } from 'react-icons/fa';
+import { SiUpwork } from 'react-icons/si';
 import style from '@/components/Contact/style.module.css';
 
 const Contact = () => {
@@ -12,12 +14,12 @@ const Contact = () => {
       <h2 className={style.sectionTitle}>Get in touch</h2>
       <div className={style.textContainer}>
         <p>
-          Hey there! How are you? Thank you for visiting my Website. I hope
-          you're doing great! :)
+          Hey there! Thank you for visiting my Website. I hope you're doing
+          great! :)
         </p>
         <p className={style.text}>
-          If you have inquiries, you may drop a message to my email or LinkedIn.
-          I will get back to you the soonest, have a good one!
+          You may send a message to my LinkedIn or in email below if you have an
+          inquiry.
         </p>
         <p className={`${style.text} ${style.email}`}>
           E-mail Address:
@@ -29,21 +31,31 @@ const Contact = () => {
             target='_blank'
             className={style.socialIcon}
           >
-            <i className='fa-brands fa-linkedin-in'></i>
+            <FaLinkedin />
           </a>
           <a
             href='https://github.com/ronaldolipata'
             target='_blank'
             className={style.socialIcon}
           >
-            <i className='fa-brands fa-github-alt'></i>
+            <FaGithubSquare />
           </a>
           <a
             href='https://dribbble.com/ronaldolipata'
             target='_blank'
             className={`${style.socialIcon} ${style.dribbleIcon}`}
           >
-            <i className='fa-brands fa-dribbble'></i>
+            <FaDribbbleSquare />
+          </a>
+        </div>
+        <div className={style.upworkContainer}>
+          <a
+            className={`${style.text} ${style.hire}`}
+            href='https://www.upwork.com/freelancers/~0198bbbb2a2f09177a'
+            target='_blank'
+          >
+            <span className={style.primaryColor}>Hire me!</span>
+            <SiUpwork className={style.upwork} />
           </a>
         </div>
         <p className={style.copyright}>
