@@ -32,21 +32,21 @@
 
 .subContainer {
   display: flex;
-  flex-wrap: wrap;
-  width: 100%;
+  flex-direction: column;
   gap: 5rem 3rem;
 }
 
 .skillsContainer {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
   gap: 1rem 0;
 }
 
 .skillsSubContainer {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
 }
 
@@ -107,6 +107,14 @@
     grid-template-areas:
       'app app devops devops'
       'app app tools utilities';
+  }
+
+  .skillsContainer {
+    align-items: flex-start;
+  }
+
+  .skillsSubContainer {
+    justify-content: flex-start;
   }
 
   .skillsContainer:nth-child(1) {
