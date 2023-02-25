@@ -92,18 +92,9 @@
   fill: var(--pri-clr);
 }
 
-/* 768px */
-@media (min-width: 48em) {
-  .container {
-    width: min(75%, 85.375rem);
-    margin-inline: auto;
-  }
-}
-
 /* 1366px */
 @media (min-width: 85.375em) {
   .container {
-    width: min(90%, 85.375rem);
     height: calc(100vh - 5.3125rem);
     display: grid;
     place-content: center;

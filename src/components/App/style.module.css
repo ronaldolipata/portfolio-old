@@ -17,5 +17,15 @@
 @media (min-width: 48em) {
   .container {
     background-image: url('https://drive.google.com/uc?id=1Fcvcl4iCBV99K3Z3GuPUrYayz-lmSkB1');
+    width: min(75%, 85.375rem);
+    margin-inline: auto;
+    padding: 0;
+  }
+}
+
+/* 1366px */
+@media (min-width: 85.375em) {
+  .container {
+    width: min(90%, 85.375rem);
   }
 }

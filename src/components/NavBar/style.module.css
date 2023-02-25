@@ -116,9 +116,14 @@ body.active {
 
 /* 768px */
 @media (min-width: 48em) {
+  .container {
+    padding: 0;
+  }
+
   .subContainer {
     width: min(75%, 85.375rem);
     margin-inline: auto;
+    padding: 0;
   }
 }
 

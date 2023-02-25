@@ -45,22 +45,12 @@
   border-radius: 3px;
 }
 
-/* 768px */
-@media (min-width: 48em) {
-  .container {
-    width: min(75%, 85.375rem);
-    margin-inline: auto;
-  }
-}
-
 /* 1366px */
 @media (min-width: 85.375em) {
   .container {
-    width: min(90%, 85.375rem);
-    height: 100vh;
+    height: calc(100vh - 5.3125rem);
     display: flex;
     align-items: center;
-    margin-top: -2rem;
     padding: 0;
     gap: 4.3rem;
   }
@@ -71,13 +61,5 @@
 
   .heroImage {
     min-width: 43%;
-  }
-}
-
-/*  1600px */
-@media (min-width: 100em) {
-  .container {
-    gap: 10rem;
-    margin-top: -5.3125rem;
   }
 }
