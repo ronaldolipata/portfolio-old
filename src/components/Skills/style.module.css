@@ -116,9 +116,6 @@
     grid-template-areas:
       'app app devops devops'
       'app app tools utilities';
-    /* grid-template-areas:
-      'app app app app'
-      'devops devops tools utilities'; */
   }
 
   .skillsContainer:nth-child(1) {
