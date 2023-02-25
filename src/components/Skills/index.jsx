@@ -30,10 +30,8 @@ import {
   SiInsomnia,
   SiGoogleanalytics,
 } from 'react-icons/si';
-import { DiScrum } from 'react-icons/di';
 import { ReactComponent as RestIcon } from '@/assets/svg/rest-api-icon.svg';
 import { ReactComponent as MongooseIcon } from '@/assets/svg/mongoose-icon.svg';
-import { ReactComponent as TDDIcon } from '@/assets/svg/tdd-icon.svg';
 
 const Skills = () => {
   const skillsData = [
@@ -106,39 +104,6 @@ const Skills = () => {
         },
       ],
     },
-    // {
-    //   scope: 'Back End Technologies',
-    //   skills: [
-    //     {
-    //       tech: 'JavaScript',
-    //       img: <SiJavascript />,
-    //     },
-    //     {
-    //       tech: 'TypeScript',
-    //       img: <SiTypescript />,
-    //     },
-    //     {
-    //       tech: 'Node JS',
-    //       img: <FaNodeJs />,
-    //     },
-    //     {
-    //       tech: 'Express JS',
-    //       img: <SiExpress />,
-    //     },
-    //     {
-    //       tech: 'REST API',
-    //       img: <RestIcon className={style.restIcon} />,
-    //     },
-    //     {
-    //       tech: 'MongoDB',
-    //       img: <SiMongodb />,
-    //     },
-    //     {
-    //       tech: 'Mongoose',
-    //       img: <MongooseIcon className={style.mongooseIcon} />,
-    //     },
-    //   ],
-    // },
     {
       scope: 'DevOps',
       skills: [
@@ -179,10 +144,6 @@ const Skills = () => {
           tech: 'Figma',
           img: <FaFigma />,
         },
-        // {
-        //   tech: 'Scrum',
-        //   img: <DiScrum className={style.scrumIcon} />,
-        // },
         {
           tech: 'Jira',
           img: <SiJirasoftware />,
@@ -196,10 +157,6 @@ const Skills = () => {
     {
       scope: 'Utilities',
       skills: [
-        // {
-        //   tech: 'TDD',
-        //   img: <TDDIcon className={`${style.iconFlex} ${style.TDDIcon}`} />,
-        // },
         {
           tech: 'Postman',
           img: <SiPostman />,
