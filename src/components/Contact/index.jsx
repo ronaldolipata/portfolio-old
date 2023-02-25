@@ -13,10 +13,6 @@ const Contact = () => {
     <section id='contact' className={style.container}>
       <h2 className={style.sectionTitle}>Get in touch</h2>
       <div className={style.textContainer}>
-        <p>
-          Hey there! Thank you for visiting my Website. I hope you're doing
-          great! :)
-        </p>
         <p className={style.text}>
           You may send a message to my LinkedIn or in email below if you have an
           inquiry.
