@@ -26,10 +26,11 @@ import {
   SiJest,
   SiJirasoftware,
   SiTestinglibrary,
-  SiPostman,
   SiInsomnia,
   SiGoogleanalytics,
+  SiFramer,
 } from 'react-icons/si';
+import { DiScrum } from 'react-icons/di';
 import { ReactComponent as RestIcon } from '@/assets/svg/rest-api-icon.svg';
 import { ReactComponent as MongooseIcon } from '@/assets/svg/mongoose-icon.svg';
 
@@ -141,6 +142,10 @@ const Skills = () => {
       scope: 'Business Tools',
       skills: [
         {
+          tech: 'Scrum',
+          img: <DiScrum className={style.scrumIcon} />,
+        },
+        {
           tech: 'Figma',
           img: <FaFigma />,
         },
@@ -158,16 +163,16 @@ const Skills = () => {
       scope: 'Utilities',
       skills: [
         {
-          tech: 'Postman',
-          img: <SiPostman />,
-        },
-        {
           tech: 'Insomia',
           img: <SiInsomnia />,
         },
         {
-          tech: 'GA',
+          tech: 'Google Analytics',
           img: <SiGoogleanalytics />,
+        },
+        {
+          tech: 'Framer',
+          img: <SiFramer />,
         },
       ],
     },

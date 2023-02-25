@@ -34,7 +34,7 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  gap: 5rem 1rem;
+  gap: 5rem 3rem;
 }
 
 .skillsContainer {
@@ -114,8 +114,11 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
+      'app app devops devops'
+      'app app tools utilities';
+    /* grid-template-areas:
       'app app app app'
-      'devops devops tools utilities';
+      'devops devops tools utilities'; */
   }
 
   .skillsContainer:nth-child(1) {
