@@ -28,6 +28,7 @@ import {
   SiTestinglibrary,
   SiPostman,
   SiInsomnia,
+  SiGoogleanalytics,
 } from 'react-icons/si';
 import { DiScrum } from 'react-icons/di';
 import { ReactComponent as RestIcon } from '@/assets/svg/rest-api-icon.svg';
@@ -37,7 +38,7 @@ import { ReactComponent as TDDIcon } from '@/assets/svg/tdd-icon.svg';
 const Skills = () => {
   const skillsData = [
     {
-      scope: 'Front End Technologies',
+      scope: 'Application and Data',
       skills: [
         {
           tech: 'HTML',
@@ -76,29 +77,12 @@ const Skills = () => {
           img: <SiRedux />,
         },
         {
-          tech: 'MUI',
+          tech: 'Material UI',
           img: <SiMaterialui />,
         },
         {
           tech: 'Chakra UI',
           img: <SiChakraui />,
-        },
-        {
-          tech: 'Figma',
-          img: <FaFigma />,
-        },
-      ],
-    },
-    {
-      scope: 'Back End Technologies',
-      skills: [
-        {
-          tech: 'JavaScript',
-          img: <SiJavascript />,
-        },
-        {
-          tech: 'TypeScript',
-          img: <SiTypescript />,
         },
         {
           tech: 'Node JS',
@@ -120,29 +104,41 @@ const Skills = () => {
           tech: 'Mongoose',
           img: <MongooseIcon className={style.mongooseIcon} />,
         },
-        {
-          tech: 'Postman',
-          img: <SiPostman />,
-        },
-        {
-          tech: 'Insomia',
-          img: <SiInsomnia />,
-        },
       ],
     },
-    {
-      scope: 'Build Tools / Bundler',
-      skills: [
-        {
-          tech: 'Vite',
-          img: <SiVite />,
-        },
-        {
-          tech: 'Webpack',
-          img: <SiWebpack />,
-        },
-      ],
-    },
+    // {
+    //   scope: 'Back End Technologies',
+    //   skills: [
+    //     {
+    //       tech: 'JavaScript',
+    //       img: <SiJavascript />,
+    //     },
+    //     {
+    //       tech: 'TypeScript',
+    //       img: <SiTypescript />,
+    //     },
+    //     {
+    //       tech: 'Node JS',
+    //       img: <FaNodeJs />,
+    //     },
+    //     {
+    //       tech: 'Express JS',
+    //       img: <SiExpress />,
+    //     },
+    //     {
+    //       tech: 'REST API',
+    //       img: <RestIcon className={style.restIcon} />,
+    //     },
+    //     {
+    //       tech: 'MongoDB',
+    //       img: <SiMongodb />,
+    //     },
+    //     {
+    //       tech: 'Mongoose',
+    //       img: <MongooseIcon className={style.mongooseIcon} />,
+    //     },
+    //   ],
+    // },
     {
       scope: 'DevOps',
       skills: [
@@ -158,31 +154,13 @@ const Skills = () => {
           tech: 'GitLab',
           img: <FaGitlab />,
         },
-      ],
-    },
-    {
-      scope: 'Project Management',
-      skills: [
         {
-          tech: 'Scrum',
-          img: <DiScrum className={style.scrumIcon} />,
+          tech: 'Vite',
+          img: <SiVite />,
         },
         {
-          tech: 'Jira',
-          img: <SiJirasoftware />,
-        },
-        {
-          tech: 'Trello',
-          img: <FaTrello />,
-        },
-      ],
-    },
-    {
-      scope: 'Testing',
-      skills: [
-        {
-          tech: 'TDD',
-          img: <TDDIcon className={`${style.iconFlex} ${style.TDDIcon}`} />,
+          tech: 'Webpack',
+          img: <SiWebpack />,
         },
         {
           tech: 'Jest',
@@ -194,11 +172,53 @@ const Skills = () => {
         },
       ],
     },
+    {
+      scope: 'Business Tools',
+      skills: [
+        {
+          tech: 'Figma',
+          img: <FaFigma />,
+        },
+        // {
+        //   tech: 'Scrum',
+        //   img: <DiScrum className={style.scrumIcon} />,
+        // },
+        {
+          tech: 'Jira',
+          img: <SiJirasoftware />,
+        },
+        {
+          tech: 'Trello',
+          img: <FaTrello />,
+        },
+      ],
+    },
+    {
+      scope: 'Utilities',
+      skills: [
+        // {
+        //   tech: 'TDD',
+        //   img: <TDDIcon className={`${style.iconFlex} ${style.TDDIcon}`} />,
+        // },
+        {
+          tech: 'Postman',
+          img: <SiPostman />,
+        },
+        {
+          tech: 'Insomia',
+          img: <SiInsomnia />,
+        },
+        {
+          tech: 'GA',
+          img: <SiGoogleanalytics />,
+        },
+      ],
+    },
   ];
 
   return (
     <section id='skills' className={style.container}>
-      <h2 className={style.sectionTitle}>Skills & Technologies</h2>
+      <h2 className={style.sectionTitle}>Tech Stacks</h2>
       <div className={style.subContainer}>
         {skillsData.map(({ scope, skills }) => (
           <div key={scope} className={style.skillsContainer}>
