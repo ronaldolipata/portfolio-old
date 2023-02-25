@@ -32,10 +32,6 @@
   padding-bottom: 1.5rem;
 }
 
-.projectDescription {
-  text-align: center;
-}
-
 .iconFlex {
   display: flex;
   flex-direction: column;
@@ -85,7 +81,6 @@
 .techUsed {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 2rem;
   margin: 2rem 0 3rem 0;
 }
