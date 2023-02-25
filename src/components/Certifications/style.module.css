@@ -73,6 +73,18 @@
   background-color: var(--sec-bg-clr);
 }
 
+/* 768px */
+@media (min-width: 48em) {
+  .cardContainer {
+    align-items: center;
+  }
+
+  .card {
+    width: 22rem;
+    margin: 0;
+  }
+}
+
 /* 1366px */
 @media (min-width: 85.375em) {
   .container {
@@ -89,7 +101,6 @@
 
   .card {
     width: 18rem;
-    margin: 0;
   }
 
   .cardDescription {
