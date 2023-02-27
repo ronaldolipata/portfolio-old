@@ -62,6 +62,7 @@
 
 .iconFlex:hover {
   color: var(--pri-clr);
+  filter: var(--filter-pri-clr);
 }
 
 .restIcon {
