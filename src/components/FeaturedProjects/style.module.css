@@ -44,6 +44,7 @@
 
 .iconFlex:hover {
   color: var(--pri-clr);
+  filter: var(--filter-pri-clr);
 }
 
 .iconFlex:hover .m30Icon path {
