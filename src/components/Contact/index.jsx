@@ -14,11 +14,13 @@ const Contact = () => {
       <h2 className={style.sectionTitle}>Get in touch</h2>
       <div className={style.textContainer}>
         <p className={style.text}>
-          You may send a message to my LinkedIn or in email below if you have an
-          inquiry.
+          Hey there! How are you? I hope you're doing great! :)
+        </p>
+        <p className={style.text}>
+          If you have an inquiry, you may reach me at LinkedIn or send a message
+          to below email.
         </p>
         <p className={`${style.text} ${style.email}`}>
-          E-mail Address:
           <span className={style.primaryColor}> lipata.ronaldo@gmail.com</span>
         </p>
         <div className={style.socialIconsContainer}>
