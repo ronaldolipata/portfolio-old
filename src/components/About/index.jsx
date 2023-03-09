@@ -6,17 +6,21 @@ const About = () => {
       <h2 className={style.sectionTitle}>About me</h2>
       <div className={style.subContainer}>
         <p className={style.text}>
-          I am <span className={style.primaryColor}>Ronaldo Lipata</span>,
-          graduated with a Bachelor's degree in IT. Aside from Web Development,
-          I am also a Blockchain enthusiast.
+          I am passionate about creating{' '}
+          <span className={style.primaryColor}>intuitive and responsive</span>{' '}
+          web applications that provide a seamless user experience.
         </p>
         <p className={style.text}>
-          Being passionate in Web Development makes me feel elated every time I
-          completed projects
+          With my skills in HTML, CSS, JavaScript, and React, I can develop{' '}
+          <span className={style.primaryColor}>
+            dynamic and interactive front-end designs
+          </span>{' '}
+          that align with clients' business objectives.
         </p>
         <p className={style.text}>
-          Having a growth mindset helps me develop my skills through hard work
-          and perseverance
+          I am a firm believer in the importance of staying up-to-date with the
+          latest industry trends and technologies. As such, I am constantly
+          expanding my skillset and learning new tools to improve my work.
         </p>
       </div>
     </section>
