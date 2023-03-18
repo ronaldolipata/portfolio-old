@@ -26,6 +26,7 @@ const Contact = () => {
         <div className={style.socialIconsContainer}>
           <a
             href='https://www.linkedin.com/in/ronaldolipata/'
+            aria-label='Know more about Ronaldo Lipata in LinkedIn'
             target='_blank'
             className={style.socialIcon}
           >
@@ -33,6 +34,7 @@ const Contact = () => {
           </a>
           <a
             href='https://github.com/ronaldolipata'
+            aria-label='Know more about Ronaldo Lipata in GitHub'
             target='_blank'
             className={style.socialIcon}
           >
@@ -40,6 +42,7 @@ const Contact = () => {
           </a>
           <a
             href='https://dribbble.com/ronaldolipata'
+            aria-label='Know more about Ronaldo Lipata in Dribbble'
             target='_blank'
             className={`${style.socialIcon} ${style.dribbleIcon}`}
           >
@@ -49,6 +52,7 @@ const Contact = () => {
         <div className={style.upworkContainer}>
           <a
             className={`${style.text} ${style.hire}`}
+            aria-label='Hire Ronaldo Lipata in Upwork'
             href='https://www.upwork.com/freelancers/~0198bbbb2a2f09177a'
             target='_blank'
           >
