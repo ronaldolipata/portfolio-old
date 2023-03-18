@@ -8,9 +8,9 @@ const FreelanceProjects = () => {
         <h2 className={style.sectionTitle}>Freelance Projects</h2>
         <div className={style.subContainer}>
           <div>
-            <h4 className={`${style.primaryColor} ${style.projectTitle}`}>
+            <h3 className={`${style.primaryColor} ${style.projectTitle}`}>
               Koolweld Engineering Contractor
-            </h4>
+            </h3>
             <div className={style.card}>
               <p>
                 A website for Construction Company. The project was to enhance
@@ -49,9 +49,9 @@ const FreelanceProjects = () => {
       <div className={style.container}>
         <div className={`${style.subContainer} ${style.subContainerReverse}`}>
           <div>
-            <h4 className={`${style.primaryColor} ${style.projectTitle}`}>
+            <h3 className={`${style.primaryColor} ${style.projectTitle}`}>
               J4SC2 Security Agency
-            </h4>
+            </h3>
             <div className={style.card}>
               <p>
                 A website for Security Agency. The project was to create a
