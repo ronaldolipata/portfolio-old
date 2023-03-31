@@ -56,7 +56,7 @@ const Skills = () => {
           img: <FaBootstrap />,
         },
         {
-          tech: 'SASS',
+          tech: 'Sass',
           img: <FaSass />,
         },
         {
