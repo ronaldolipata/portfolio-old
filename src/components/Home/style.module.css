@@ -55,11 +55,11 @@
     gap: 4.3rem;
   }
 
-  .text {
-    min-width: 20%;
+  .container div {
+    width: 50%;
   }
 
-  .heroImage {
-    min-width: 43%;
+  .text {
+    min-width: 20%;
   }
 }
