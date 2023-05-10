@@ -52,6 +52,7 @@ const FeaturedProjects = () => {
         },
       ],
       demo: 'https://ronaldolipata.github.io/memoirs-frontend/',
+      availability: true,
     },
     {
       name: 'Paytaka',
@@ -82,6 +83,7 @@ const FeaturedProjects = () => {
         },
       ],
       demo: 'https://ronaldolipata.github.io/Paytaka-Virtual-Wallet/',
+      availability: false,
     },
     {
       name: 'Card Matching Game - Space Theme',
@@ -107,13 +109,14 @@ const FeaturedProjects = () => {
         },
       ],
       demo: 'https://ronaldolipata.github.io/Card-Matching-Game-Space-Theme/',
+      availability: true,
     },
   ];
 
   return (
     <section id='projects'>
       {featuredProjectsData.map(
-        ({ name, desc, src, techUsed, demo }, index) => (
+        ({ name, desc, src, techUsed, demo, availability }, index) => (
           <div key={name} className={style.container}>
             {index !== 0 ? (
               false
@@ -139,9 +142,20 @@ const FeaturedProjects = () => {
                     </span>
                   ))}
                 </div>
-                <a href={demo} target='_blank' className={style.ctaButton}>
-                  View Demo
-                </a>
+                {availability ? (
+                  <a href={demo} target='_blank' className={style.ctaButton}>
+                    View Demo
+                  </a>
+                ) : (
+                  <a
+                    href={demo}
+                    target='_blank'
+                    onClick={(event) => event.preventDefault()}
+                    className={style.ctaButton}
+                  >
+                    Not available
+                  </a>
+                )}
               </div>
               <div className={style.projectImageContainer}>
                 <LazyLoadImage
