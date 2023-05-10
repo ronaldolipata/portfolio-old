@@ -1,5 +1,5 @@
 # Ronaldo Lipata - Web Dev Portfolio
-I am a Full-stack Developer, specializing in Front-end Development. I help businesses leverage the internet by building Websites and Web Applications. I use MERN stack, REST API and related technologies to create aesthetic and secured applications.
+I am proficient in both front-end and back-end web development, capable of building complete and functional web applications. With expertise in JavaScript, databases, and frameworks, I can design, develop, and deploy web solutions that meet clients' needs.
 
 # Getting started
 
