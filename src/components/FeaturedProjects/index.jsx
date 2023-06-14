@@ -21,9 +21,9 @@ export default function FeaturedProjects() {
       desc: 'Improve overall designs, implemented upload feature for files and pictures, allowing the company to showcase their work and engage potential clients.',
       src: {
         iphone:
-          './assets/images/featured-projects/koolweld/koolweld-iphone.png',
+          'https://res.cloudinary.com/dkpg4tdoq/image/upload/v1686751427/Web%20Dev%20Portfolio/featured-projects/koolweld-iphone_jycwpd.png',
         mackbook:
-          './assets/images/featured-projects/koolweld/koolweld-macbook.png',
+          'https://res.cloudinary.com/dkpg4tdoq/image/upload/v1686751427/Web%20Dev%20Portfolio/featured-projects/koolweld-macbook_l87gnf.png',
       },
       techUsed: [
         {
