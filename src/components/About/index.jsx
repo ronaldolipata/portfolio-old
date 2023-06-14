@@ -7,15 +7,17 @@ export default function About() {
       <div className={style.subContainer}>
         <p className={style.text}>
           I am passionate about creating
-          <span className={style.primaryColor}>intuitive and responsive</span>
+          <span className={style.primaryColor}> intuitive and responsive </span>
           web applications that provide a seamless user experience.
         </p>
         <p className={style.text}>
-          With my skills in HTML, CSS, JavaScript, and React, I can develop
+          With my skills in Figma, MERN stack, I can develop {''}
           <span className={style.primaryColor}>
-            dynamic and interactive front-end designs
-          </span>
-          that align with clients&apos; business objectives.
+            dynamic and interactive
+          </span>{' '}
+          frontend interface, as well as{' '}
+          <span className={style.primaryColor}>efficient and robust</span>{' '}
+          backend that align with clients&apos; business objectives.
         </p>
         <p className={style.text}>
           I am a firm believer in the importance of staying up-to-date with the
