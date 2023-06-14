@@ -15,7 +15,7 @@ export default function About() {
           <span className={style.primaryColor}>
             dynamic and interactive
           </span>{' '}
-          frontend interface, as well as{' '}
+          frontend interfaces, as well as{' '}
           <span className={style.primaryColor}>efficient and robust</span>{' '}
           backend that align with clients&apos; business objectives.
         </p>
