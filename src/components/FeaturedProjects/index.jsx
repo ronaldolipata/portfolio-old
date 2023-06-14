@@ -6,6 +6,7 @@ import {
   SiNextdotjs,
   SiTailwindcss,
   SiJavascript,
+  SiTypescript,
   SiExpress,
   SiMongodb,
 } from 'react-icons/si';
@@ -28,6 +29,10 @@ export default function FeaturedProjects() {
         {
           tech: 'Next.js 13',
           img: <SiNextdotjs />,
+        },
+        {
+          tech: 'TypeScript',
+          img: <SiTypescript />,
         },
         {
           tech: 'Tailwind',
