@@ -9,7 +9,7 @@ const FeaturedProjects = lazy(() => import('@/components/FeaturedProjects'));
 const Certifications = lazy(() => import('@/components/Certifications'));
 const Contact = lazy(() => import('@/components/Contact'));
 
-function App() {
+export default function App() {
   useEffect(() => {
     // Remove location hash from the URL
     const removeLocationHash = () => {
@@ -32,22 +32,18 @@ function App() {
   }, []);
 
   return (
-    <>
-      <Suspense fallback={<div className={style.loading}>Loading...</div>}>
-        <NavBar />
-        <div className={style.container}>
-          <main>
-            <Home />
-            <About />
-            <Skills />
-            <FeaturedProjects />
-            <Certifications />
-            <Contact />
-          </main>
-        </div>
-      </Suspense>
-    </>
+    <Suspense fallback={<div className={style.loading}>Loading...</div>}>
+      <NavBar />
+      <div className={style.container}>
+        <main>
+          <Home />
+          <About />
+          <Skills />
+          <FeaturedProjects />
+          <Certifications />
+          <Contact />
+        </main>
+      </div>
+    </Suspense>
   );
 }
-
-export default App;

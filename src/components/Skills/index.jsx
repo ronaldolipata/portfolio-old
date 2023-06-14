@@ -34,7 +34,7 @@ import { DiScrum } from 'react-icons/di';
 import { ReactComponent as RestIcon } from '@/assets/svg/rest-api-icon.svg';
 import { ReactComponent as MongooseIcon } from '@/assets/svg/mongoose-icon.svg';
 
-const Skills = () => {
+export default function Skills() {
   const skillsData = [
     {
       scope: 'Application and Data',
@@ -197,6 +197,4 @@ const Skills = () => {
       </div>
     </section>
   );
-};
-
-export default Skills;
+}

@@ -1,7 +1,7 @@
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import style from '@/components/Home/style.module.css';
 
-const Home = () => {
+export default function Home() {
   return (
     <section id='home' className={style.container}>
       <div className={style.text}>
@@ -30,6 +30,4 @@ const Home = () => {
       </div>
     </section>
   );
-};
-
-export default Home;
+}

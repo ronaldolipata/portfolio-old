@@ -13,7 +13,7 @@ import { ReactComponent as M30Icon } from '@/assets/svg/m30-api-icon.svg';
 import { ReactComponent as RestIcon } from '@/assets/svg/rest-api-icon.svg';
 import { ReactComponent as MongooseIcon } from '@/assets/svg/mongoose-icon.svg';
 
-const FeaturedProjects = () => {
+export default function FeaturedProjects() {
   const featuredProjectsData = [
     {
       name: 'Koolweld Engineering Contractor',
@@ -152,6 +152,7 @@ const FeaturedProjects = () => {
                     availability ? false : (event) => event.preventDefault()
                   }
                   className={style.ctaButton}
+                  rel='noreferrer'
                 >
                   {availability ? 'View Demo' : 'Not available'}
                 </a>
@@ -174,6 +175,4 @@ const FeaturedProjects = () => {
       )}
     </section>
   );
-};
-
-export default FeaturedProjects;
+}

@@ -1,7 +1,7 @@
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import style from '@/components/Certifications/style.module.css';
 
-const Certifications = () => {
+export default function Certifications() {
   return (
     <section id='certifications' className={style.container}>
       <h2 className={style.sectionTitle}>Certifications</h2>
@@ -24,6 +24,7 @@ const Certifications = () => {
             href='https://drive.google.com/file/d/1Bt8v-lysQKv90u3Y91T6ttUqzU9MWVIR/view?usp=share_link'
             target='_blank'
             className={style.ctaButton}
+            rel='noreferrer'
           >
             View Certificate
           </a>
@@ -46,6 +47,7 @@ const Certifications = () => {
             href='https://drive.google.com/file/d/17mdHZSdgHU_8fsHppKPpmk88x6aCZoMf/view?usp=share_link'
             target='_blank'
             className={style.ctaButton}
+            rel='noreferrer'
           >
             View Certificate
           </a>
@@ -68,6 +70,7 @@ const Certifications = () => {
             href='https://drive.google.com/file/d/1RbC5BJVMERjp-b_eMJS-jIIys8kaqFYz/view?usp=share_link'
             target='_blank'
             className={style.ctaButton}
+            rel='noreferrer'
           >
             View Certificate
           </a>
@@ -75,6 +78,4 @@ const Certifications = () => {
       </div>
     </section>
   );
-};
-
-export default Certifications;
+}

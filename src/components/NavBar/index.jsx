@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import style from '@/components/NavBar/style.module.css';
 
-const NavBar = () => {
+export default function NavBar() {
   const refHeader = useRef('hidden');
   const refMenu = useRef('hidden');
   const refToggleMenu = useRef('hidden');
@@ -60,6 +60,7 @@ const NavBar = () => {
               onClick={removeStyle}
               target='_blank'
               download
+              rel='noreferrer'
             >
               Resume
             </a>
@@ -70,6 +71,7 @@ const NavBar = () => {
           className={`${style.ctaButton} ${style.desktop}`}
           target='_blank'
           download
+          rel='noreferrer'
         >
           Resume
         </a>
@@ -78,13 +80,11 @@ const NavBar = () => {
           onClick={toggleOnClick}
           ref={refToggleMenu}
         >
-          <div className={`${style.bar} ${style.bar1}`}></div>
-          <div className={`${style.bar} ${style.bar2}`}></div>
-          <div className={`${style.bar} ${style.bar3}`}></div>
+          <div className={`${style.bar} ${style.bar1}`} />
+          <div className={`${style.bar} ${style.bar2}`} />
+          <div className={`${style.bar} ${style.bar3}`} />
         </div>
       </div>
     </header>
   );
-};
-
-export default NavBar;
+}

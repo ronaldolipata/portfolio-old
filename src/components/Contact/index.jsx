@@ -2,7 +2,7 @@ import { FaLinkedin, FaGithubSquare, FaDribbbleSquare } from 'react-icons/fa';
 import { SiUpwork } from 'react-icons/si';
 import style from '@/components/Contact/style.module.css';
 
-const Contact = () => {
+export default function Contact() {
   const currentYear = () => {
     const date = new Date();
     const year = date.getFullYear();
@@ -29,6 +29,7 @@ const Contact = () => {
             aria-label='Know more about Ronaldo Lipata in LinkedIn'
             target='_blank'
             className={style.socialIcon}
+            rel='noreferrer'
           >
             <FaLinkedin />
           </a>
@@ -37,6 +38,7 @@ const Contact = () => {
             aria-label='Know more about Ronaldo Lipata in GitHub'
             target='_blank'
             className={style.socialIcon}
+            rel='noreferrer'
           >
             <FaGithubSquare />
           </a>
@@ -45,6 +47,7 @@ const Contact = () => {
             aria-label='Know more about Ronaldo Lipata in Dribbble'
             target='_blank'
             className={`${style.socialIcon} ${style.dribbleIcon}`}
+            rel='noreferrer'
           >
             <FaDribbbleSquare />
           </a>
@@ -55,6 +58,7 @@ const Contact = () => {
             aria-label='Hire Ronaldo Lipata in Upwork'
             href='https://www.upwork.com/freelancers/~0198bbbb2a2f09177a'
             target='_blank'
+            rel='noreferrer'
           >
             <span className={style.primaryColor}>Hire me!</span>
             <SiUpwork className={style.upwork} />
@@ -66,6 +70,4 @@ const Contact = () => {
       </div>
     </section>
   );
-};
-
-export default Contact;
+}

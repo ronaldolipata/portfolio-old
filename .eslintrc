@@ -16,7 +16,7 @@
   },
   "rules": {
     "linebreak-style": ["error", "unix"],
-    "quotes": ["error", "single"],
+    "quotes": ["error", "single", { "avoidEscape": true }],
     "semi": ["error", "always"],
     "import/extensions": [0, "always"],
     "@html-eslint/indent": ["error", 2],
