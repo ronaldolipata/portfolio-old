@@ -128,14 +128,14 @@
 /* 1366px */
 @media (min-width: 85.375em) {
   .container {
-    height: 100vh;
+    height: calc(100vh - 5.3125rem);
     display: grid;
     place-content: center;
     padding: 0;
   }
 
   .sectionTitle {
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
   }
 
   .subContainer {

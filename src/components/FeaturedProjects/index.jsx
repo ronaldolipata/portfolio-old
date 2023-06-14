@@ -1,7 +1,14 @@
 import style from '@/components/FeaturedProjects/style.module.css';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs } from 'react-icons/fa';
-import { SiVite, SiJavascript, SiExpress, SiMongodb } from 'react-icons/si';
+import {
+  SiVite,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiJavascript,
+  SiExpress,
+  SiMongodb,
+} from 'react-icons/si';
 import { ReactComponent as M30Icon } from '@/assets/svg/m30-api-icon.svg';
 import { ReactComponent as RestIcon } from '@/assets/svg/rest-api-icon.svg';
 import { ReactComponent as MongooseIcon } from '@/assets/svg/mongoose-icon.svg';
@@ -9,26 +16,22 @@ import { ReactComponent as MongooseIcon } from '@/assets/svg/mongoose-icon.svg';
 const FeaturedProjects = () => {
   const featuredProjectsData = [
     {
-      name: 'Memoirs',
-      desc: 'An application focuses in sharing important events in life and memorable stories. Users can input Title, Content and upload their photos.',
+      name: 'Koolweld Engineering Contractor',
+      desc: 'Improve overall designs, implemented upload feature for files and pictures, allowing the company to showcase their work and engage potential clients.',
       src: {
         iphone:
-          'https://res.cloudinary.com/dkpg4tdoq/image/upload/v1677150055/Web%20Dev%20Portfolio/featured-projects/memoirs-iphone_hrpbrj.png',
+          './assets/images/featured-projects/koolweld/koolweld-iphone.png',
         mackbook:
-          'https://res.cloudinary.com/dkpg4tdoq/image/upload/v1677149869/Web%20Dev%20Portfolio/featured-projects/memoirs-macbook_y4dcfz.png',
+          './assets/images/featured-projects/koolweld/koolweld-macbook.png',
       },
       techUsed: [
         {
-          tech: 'Vite',
-          img: <SiVite />,
+          tech: 'Next.js 13',
+          img: <SiNextdotjs />,
         },
         {
-          tech: 'React',
-          img: <FaReact />,
-        },
-        {
-          tech: 'CSS',
-          img: <FaCss3Alt />,
+          tech: 'Tailwind',
+          img: <SiTailwindcss />,
         },
         {
           tech: 'Node',
@@ -51,7 +54,7 @@ const FeaturedProjects = () => {
           img: <MongooseIcon className={style.mongooseIcon} />,
         },
       ],
-      demo: 'https://ronaldolipata.github.io/memoirs-frontend/',
+      demo: 'https://koolweld.com/',
       availability: true,
     },
     {
@@ -142,20 +145,16 @@ const FeaturedProjects = () => {
                     </span>
                   ))}
                 </div>
-                {availability ? (
-                  <a href={demo} target='_blank' className={style.ctaButton}>
-                    View Demo
-                  </a>
-                ) : (
-                  <a
-                    href={demo}
-                    target='_blank'
-                    onClick={(event) => event.preventDefault()}
-                    className={style.ctaButton}
-                  >
-                    Not available
-                  </a>
-                )}
+                <a
+                  href={demo}
+                  target='_blank'
+                  onClick={
+                    availability ? false : (event) => event.preventDefault()
+                  }
+                  className={style.ctaButton}
+                >
+                  {availability ? 'View Demo' : 'Not available'}
+                </a>
               </div>
               <div className={style.projectImageContainer}>
                 <LazyLoadImage
