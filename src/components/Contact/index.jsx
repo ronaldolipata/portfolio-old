@@ -14,7 +14,7 @@ export default function Contact() {
       <h2 className={style.sectionTitle}>Get in touch</h2>
       <div className={style.textContainer}>
         <p className={style.text}>
-          Hey there! How are you? I hope you're doing great! :)
+          Hey there! How are you? I hope you are doing great! :)
         </p>
         <p className={style.text}>
           If you have an inquiry, you may reach me at LinkedIn or send a message

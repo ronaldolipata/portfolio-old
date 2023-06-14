@@ -34,10 +34,10 @@ export default function NavBar() {
   return (
     <header className={style.container} ref={refHeader}>
       <div className={style.subContainer}>
-        <a href='#home' className={style.logo}>
+        <a href="#home" className={style.logo}>
           <LazyLoadImage
-            src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132061/Web%20Dev%20Portfolio/dark-theme/dark-theme-logo_fwtr6i.svg'
-            alt='Logo'
+            src="https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132061/Web%20Dev%20Portfolio/dark-theme/dark-theme-logo_fwtr6i.svg"
+            alt="Logo"
           />
         </a>
         <nav>
@@ -55,23 +55,23 @@ export default function NavBar() {
               </li>
             ))}
             <a
-              href='https://drive.google.com/file/d/1zN7vpDvcsuMO8EadKvthIiojV8Y9i8mx/view?usp=share_link'
+              href="https://drive.google.com/file/d/1zN7vpDvcsuMO8EadKvthIiojV8Y9i8mx/view?usp=share_link"
               className={`${style.ctaButton} ${style.mobile}`}
               onClick={removeStyle}
-              target='_blank'
+              target="_blank"
               download
-              rel='noreferrer'
+              rel="noreferrer"
             >
               Resume
             </a>
           </ul>
         </nav>
         <a
-          href='https://drive.google.com/file/d/1zN7vpDvcsuMO8EadKvthIiojV8Y9i8mx/view?usp=share_link'
+          href="https://drive.google.com/file/d/1zN7vpDvcsuMO8EadKvthIiojV8Y9i8mx/view?usp=share_link"
           className={`${style.ctaButton} ${style.desktop}`}
-          target='_blank'
+          target="_blank"
           download
-          rel='noreferrer'
+          rel="noreferrer"
         >
           Resume
         </a>

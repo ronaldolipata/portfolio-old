@@ -3,7 +3,7 @@ import style from '@/components/Home/style.module.css';
 
 export default function Home() {
   return (
-    <section id='home' className={style.container}>
+    <section id="home" className={style.container}>
       <div className={style.text}>
         <p className={style.textOpacity}>Hello! My name is</p>
         <h1 className={style.title}>
@@ -15,17 +15,17 @@ export default function Home() {
           I am proficient in both front-end and back-end web development,
           capable of building complete and functional web applications. With
           expertise in JavaScript, databases, and frameworks, I can design,
-          develop, and deploy web solutions that meet clients' needs.
+          develop, and deploy web solutions that meet clients&apos; needs.
         </p>
-        <a className={style.ctaButton} href='#contact'>
+        <a className={style.ctaButton} href="#contact">
           Get in touch
         </a>
       </div>
       <div>
         <LazyLoadImage
           className={style.heroImage}
-          src='https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132066/Web%20Dev%20Portfolio/hero-picture/Ron_taapsq.svg'
-          alt='Ronaldo Lipata'
+          src="https://res.cloudinary.com/dkpg4tdoq/image/upload/v1676132066/Web%20Dev%20Portfolio/hero-picture/Ron_taapsq.svg"
+          alt="Ronaldo Lipata"
         />
       </div>
     </section>

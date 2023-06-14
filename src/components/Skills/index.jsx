@@ -186,8 +186,8 @@ export default function Skills() {
           <div key={scope} className={style.skillsContainer}>
             <h3 className={style.primaryColor}>{scope}</h3>
             <div className={style.skillsSubContainer}>
-              {skills.map(({ tech, img }, index) => (
-                <span key={index} className={style.iconFlex}>
+              {skills.map(({ tech, img }) => (
+                <span key={tech} className={style.iconFlex}>
                   {tech} {img}
                 </span>
               ))}
