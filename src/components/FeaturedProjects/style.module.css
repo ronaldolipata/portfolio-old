@@ -28,8 +28,29 @@
   opacity: 0.3;
 }
 
-.projectTitle {
+.projectTitleContainer {
   padding-bottom: 1.5rem;
+}
+
+.projectTagContainer {
+  display: inline-flex;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.projectTag {
+  border: 1px solid rgba(61, 255, 209, 0.5);
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
+
+.externalLinkIcon {
+  margin: 0 0.5rem;
+  font-size: 1rem;
+}
+
+.projectTitle {
+  padding-bottom: 0.3rem;
 }
 
 .projectDescription {
@@ -87,8 +108,24 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  column-gap: 2rem;
+  row-gap: 1rem;
   margin: 2rem 0 3rem 0;
+}
+
+.ctaContainer {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.repository:hover {
+  color: var(--pri-clr);
+}
+
+.horizatalSeparation {
+  display: none;
+  opacity: 0.3;
 }
 
 .ctaButton {
@@ -161,6 +198,16 @@
 
   .subContainerReverse .techUsed {
     justify-content: end;
+  }
+
+  .ctaContainer {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .horizatalSeparation {
+    display: block;
   }
 
   .projectImageContainer {

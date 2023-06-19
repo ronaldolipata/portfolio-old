@@ -1,6 +1,7 @@
 import style from '@/components/FeaturedProjects/style.module.css';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs } from 'react-icons/fa';
+import { BsBoxArrowUpRight } from 'react-icons/bs';
 import {
   SiVite,
   SiNextdotjs,
@@ -59,7 +60,10 @@ export default function FeaturedProjects() {
           img: <MongooseIcon className={style.mongooseIcon} />,
         },
       ],
+      projectType: 'freelance',
+      github: '',
       demo: 'https://koolweld.com/',
+      completed: false,
       availability: true,
     },
     {
@@ -90,7 +94,10 @@ export default function FeaturedProjects() {
           img: <M30Icon className={style.m30Icon} />,
         },
       ],
+      projectType: 'personal',
+      github: '',
       demo: 'https://ronaldolipata.github.io/Paytaka-Virtual-Wallet/',
+      completed: true,
       availability: false,
     },
     {
@@ -116,7 +123,10 @@ export default function FeaturedProjects() {
           img: <SiJavascript />,
         },
       ],
+      projectType: 'personal',
+      github: 'https://github.com/ronaldolipata/Card-Matching-Game-Space-Theme',
       demo: 'https://ronaldolipata.github.io/Card-Matching-Game-Space-Theme/',
+      completed: true,
       availability: true,
     },
   ];
@@ -124,7 +134,20 @@ export default function FeaturedProjects() {
   return (
     <section id='projects'>
       {featuredProjectsData.map(
-        ({ name, desc, src, techUsed, demo, availability }, index) => (
+        (
+          {
+            name,
+            desc,
+            src,
+            techUsed,
+            demo,
+            projectType,
+            github,
+            completed,
+            availability,
+          },
+          index
+        ) => (
           <div key={name} className={style.container}>
             {index !== 0 ? (
               false
@@ -139,9 +162,19 @@ export default function FeaturedProjects() {
               }
             >
               <div className={style.projectDescription}>
-                <h3 className={`${style.primaryColor} ${style.projectTitle}`}>
-                  {name}
-                </h3>
+                <div className={style.projectTitleContainer}>
+                  <h3 className={`${style.primaryColor} ${style.projectTitle}`}>
+                    {name}
+                  </h3>
+                  <div className={style.projectTagContainer}>
+                    <span className={style.projectTag}>
+                      {completed ? 'completed' : 'on-going'}
+                    </span>
+                    <span className={style.projectTag}>
+                      {projectType} project
+                    </span>
+                  </div>
+                </div>
                 <p>{desc}</p>
                 <div className={style.techUsed}>
                   {techUsed.map(({ tech, img }) => (
@@ -150,17 +183,34 @@ export default function FeaturedProjects() {
                     </span>
                   ))}
                 </div>
-                <a
-                  href={demo}
-                  target='_blank'
-                  onClick={
-                    availability ? false : (event) => event.preventDefault()
-                  }
-                  className={style.ctaButton}
-                  rel='noreferrer'
-                >
-                  {availability ? 'View Demo' : 'Not available'}
-                </a>
+                <div className={style.ctaContainer}>
+                  <a
+                    href={demo}
+                    target='_blank'
+                    onClick={
+                      availability ? false : (event) => event.preventDefault()
+                    }
+                    className={style.ctaButton}
+                    rel='noreferrer'
+                  >
+                    {availability ? 'View Demo' : 'Not available'}
+                  </a>
+                  {github !== '' ? (
+                    <>
+                      <span className={style.horizatalSeparation}>|</span>
+                      <a
+                        href={github}
+                        target='_blank'
+                        className={style.repository}
+                      >
+                        Repository{' '}
+                        <BsBoxArrowUpRight className={style.externalLinkIcon} />
+                      </a>
+                    </>
+                  ) : (
+                    false
+                  )}
+                </div>
               </div>
               <div className={style.projectImageContainer}>
                 <LazyLoadImage
