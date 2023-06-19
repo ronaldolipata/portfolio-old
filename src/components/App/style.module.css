@@ -28,4 +28,26 @@
   .container {
     width: min(90%, 85.375rem);
   }
+
+  .main > section {
+    margin: 5rem 0;
+    margin-inline: auto;
+  }
+
+  .main > section:first-child {
+    margin: 0;
+  }
+
+  .main > section:last-child {
+    margin: 0;
+    margin-inline: auto;
+  }
+}
+
+/* 1920px */
+@media (min-width: 120em) {
+  .main > section {
+    margin: 0;
+    margin-inline: auto;
+  }
 }

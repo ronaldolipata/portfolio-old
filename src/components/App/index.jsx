@@ -35,7 +35,7 @@ export default function App() {
     <Suspense fallback={<div className={style.loading}>Loading...</div>}>
       <NavBar />
       <div className={style.container}>
-        <main>
+        <main className={style.main}>
           <Home />
           <About />
           <Skills />
