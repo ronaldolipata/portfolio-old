@@ -121,6 +121,7 @@
 
 .repository:hover {
   color: var(--pri-clr);
+  filter: var(--filter-pri-clr);
 }
 
 .horizatalSeparation {
