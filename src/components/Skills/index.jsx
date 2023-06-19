@@ -16,6 +16,7 @@ import {
   SiTailwindcss,
   SiVite,
   SiWebpack,
+  SiNextdotjs,
   SiRedux,
   SiMaterialui,
   SiChakraui,
@@ -68,11 +69,15 @@ export default function Skills() {
           img: <SiTypescript />,
         },
         {
-          tech: 'React',
+          tech: 'React.js',
           img: <FaReact />,
         },
         {
-          tech: 'Redux',
+          tech: 'Next.js',
+          img: <SiNextdotjs />,
+        },
+        {
+          tech: 'Redux Toolkit',
           img: <SiRedux />,
         },
         {
@@ -84,11 +89,11 @@ export default function Skills() {
           img: <SiChakraui />,
         },
         {
-          tech: 'Node JS',
+          tech: 'Node.js',
           img: <FaNodeJs />,
         },
         {
-          tech: 'Express JS',
+          tech: 'Express.js',
           img: <SiExpress />,
         },
         {
