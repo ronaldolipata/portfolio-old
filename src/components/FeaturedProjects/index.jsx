@@ -125,7 +125,7 @@ export default function FeaturedProjects() {
       ],
       projectType: 'personal',
       github: 'https://github.com/ronaldolipata/Card-Matching-Game-Space-Theme',
-      demo: 'https://ronaldolipata.github.io/Card-Matching-Game-Space-Theme/',
+      demo: 'https://ronaldolipata.github.io/card-matching-game-space-theme/',
       completed: true,
       availability: true,
     },
